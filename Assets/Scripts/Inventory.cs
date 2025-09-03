@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    int rupee_count = 0;
+    public int rupee_count = 0;
+    public int key_count = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,10 +17,9 @@ public class Inventory : MonoBehaviour
         
     }
 
-    public void AddRupees(int num_rupees)
+    public void AddInventory(ref int count_change, int num_added)
     {
-        rupee_count += num_rupees;
-        Debug.Log("rupees: " + rupee_count);
+        count_change += num_added;
     }
 
     public int GetRupees()
