@@ -6,8 +6,6 @@ public class Movement : MonoBehaviour
     Rigidbody rb;
     public float speed = 4;
 
-    private int floor_length = 16;
-    private int floor_height = 7;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
