@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Movement : MonoBehaviour
 {
+    public bool canMove = true;
     Rigidbody rb;
     public float speed = 4;
 
@@ -15,6 +16,10 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!canMove)
+        {
+            return;
+        }
         Vector2 current_input = GetInput();
         rb.linearVelocity = current_input * speed;
     }
