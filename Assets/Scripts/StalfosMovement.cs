@@ -4,6 +4,7 @@ public class StalfosMovement : MonoBehaviour
 {
     public float speed = 4f;                 // Movement speed
     public float moveInterval = 1f;          // Time between direction changes
+    public bool can_move = true;
 
     private Rigidbody rb;
     private float moveTimer = 0f;
@@ -21,22 +22,25 @@ public class StalfosMovement : MonoBehaviour
         moveTimer -= Time.deltaTime;
 
         // Pick a new direction
-        if (moveTimer <= 0f)
+        if (can_move)
         {
-            PickNewDirection();
-            moveTimer = moveInterval;
+            if (moveTimer <= 0f)
+            {
+                PickNewDirection();
+                moveTimer = moveInterval;
+            }
+
+            // Apply grid movement logic
+            float verticalDir = currentDirection.y;
+            float horizontalDir = currentDirection.x;
+
+            GridUtils.GridMovement(ref verticalDir, ref horizontalDir, ref rb);
+
+            currentDirection = new Vector2(horizontalDir, verticalDir);
+
+            // Apply movement
+            rb.linearVelocity = new Vector3(currentDirection.x, currentDirection.y, 0f) * speed;
         }
-
-        // Apply grid movement logic
-        float verticalDir = currentDirection.y;
-        float horizontalDir = currentDirection.x;
-
-        GridUtils.GridMovement(ref verticalDir, ref horizontalDir, ref rb);
-
-        currentDirection = new Vector2(horizontalDir, verticalDir);
-
-        // Apply movement
-        rb.linearVelocity = new Vector3(currentDirection.x, currentDirection.y, 0f) * speed;
     }
 
     void PickNewDirection()
