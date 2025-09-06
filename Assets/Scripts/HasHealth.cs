@@ -47,7 +47,8 @@ public class HasHealth : MonoBehaviour
     {
         GameObject collided = other.gameObject;
         GameObject player = rb.gameObject;
-        if (player.tag == "enemy" && collided.tag == "sword")
+        bool sword_hits = (!collided.GetComponent<Sword>().is_projectile && collided.GetComponent<Sword>().swinging) || (collided.GetComponent<Sword>().is_projectile);
+        if (player.tag == "enemy" && collided.tag == "sword" && sword_hits)
         {
             StartCoroutine(HitStun(collided));
             if (health == 0)
