@@ -8,6 +8,7 @@ public class HasHealth : MonoBehaviour
     public Movement movement;
     public StalfosMovement enemy_movement;
     public int health = 3;
+    public int max_health = 3;
     public float force = 4;
     Rigidbody rb;
     private bool can_hit = true;
@@ -40,6 +41,12 @@ public class HasHealth : MonoBehaviour
                 StartCoroutine(Death(2));
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        GameObject collided = other.gameObject;
+        GameObject player = rb.gameObject;
         if (player.tag == "enemy" && collided.tag == "sword")
         {
             StartCoroutine(HitStun(collided));

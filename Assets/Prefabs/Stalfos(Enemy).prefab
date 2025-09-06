@@ -108,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   speed: 1
   moveInterval: 2
+  can_move: 1
 --- !u!54 &7135788563796585773
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -169,5 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HasHealth
   movement: {fileID: 0}
+  enemy_movement: {fileID: 0}
   health: 2
+  max_health: 2
   force: 4

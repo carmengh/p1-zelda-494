@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
     public bool canMove = true;
     Rigidbody rb;
     public float speed = 4;
+    public GetSprites zelda;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,9 +19,14 @@ public class Movement : MonoBehaviour
     {
         if (!canMove)
         {
+            rb.linearVelocity = Vector2.zero;
             return;
         }
         Vector2 current_input = GetInput();
+        if (!canMove){ 
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
         rb.linearVelocity = current_input * speed;
     }
 
@@ -28,6 +34,7 @@ public class Movement : MonoBehaviour
     {
         float horizontal_input = Input.GetAxisRaw("Horizontal");
         float vertical_input = Input.GetAxisRaw("Vertical");
+
         if (Mathf.Abs(horizontal_input) > 0.0f)
         {
             vertical_input = 0.0f;
@@ -35,6 +42,24 @@ public class Movement : MonoBehaviour
 
         GridUtils.GridMovement(ref vertical_input, ref horizontal_input, ref rb);
 
-        return new Vector2(horizontal_input, vertical_input);
+        // set sprite to show character direction
+        if (horizontal_input == -1)
+        {
+            GetComponent<SpriteRenderer>().sprite = zelda.sprites[1];
+        }
+        else if (horizontal_input == 1)
+        {
+            GetComponent<SpriteRenderer>().sprite = zelda.sprites[3];
+        }
+        if (vertical_input == -1)
+        {
+            GetComponent<SpriteRenderer>().sprite = zelda.sprites[0];
+        }
+        else if (vertical_input == 1)
+        {
+            GetComponent<SpriteRenderer>().sprite = zelda.sprites[2];
+        }
+
+            return new Vector2(horizontal_input, vertical_input);
     }
 }
