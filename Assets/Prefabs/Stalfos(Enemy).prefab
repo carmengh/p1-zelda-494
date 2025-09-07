@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7135788563796585773}
   - component: {fileID: 3466112742217316986}
   - component: {fileID: -6514859431123492589}
+  - component: {fileID: -3463155501685873619}
   m_Layer: 0
   m_Name: Stalfos(Enemy)
   m_TagString: enemy
@@ -174,3 +175,20 @@ MonoBehaviour:
   health: 2
   max_health: 2
   force: 4
+--- !u!114 &-3463155501685873619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544663145570094898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14bd65203708b94c951268ae6d4cab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  heart: {fileID: 5577941154099887948, guid: 02e61348435d8254d8b162a554761e19, type: 3}
+  rupee: {fileID: 5418155383407606646, guid: 6176d93e56edef54594863a57de09409, type: 3}
+  key: {fileID: 937831252983600732, guid: 8cf3810fcdb845f4198b80d045551a8d, type: 3}
+  has_key: 0
+  drop_rate: 0.5

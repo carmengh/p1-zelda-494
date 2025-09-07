@@ -109,7 +109,6 @@ public class Sword : MonoBehaviour
     {
         if (player.GetComponent<Projectile>().projectile_made || (player.GetComponent<HasHealth>().health != player.GetComponent<HasHealth>().max_health))
         {
-            Debug.Log("sword projectile_made: " + player.GetComponent<Projectile>().projectile_made);
             can_attack = true;
         }
         else

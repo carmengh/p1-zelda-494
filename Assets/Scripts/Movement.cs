@@ -19,12 +19,19 @@ public class Movement : MonoBehaviour
     {
         if (!canMove)
         {
-            rb.linearVelocity = Vector2.zero;
+            if (!GetComponent<HasHealth>().knocked_back)
+            {
+                rb.linearVelocity = Vector2.zero;
+            }
             return;
         }
         Vector2 current_input = GetInput();
-        if (!canMove){ 
-            rb.linearVelocity = Vector2.zero;
+        if (!canMove)
+        {
+            if (!GetComponent<HasHealth>().knocked_back)
+            {
+                rb.linearVelocity = Vector2.zero;
+            }
             return;
         }
         rb.linearVelocity = current_input * speed;

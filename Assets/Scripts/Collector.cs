@@ -46,5 +46,13 @@ public class Collector : MonoBehaviour
             }
             Destroy(object_collided_with);
         }
+        if (object_collided_with.tag == "heart")
+        {
+            if (GetComponent<HasHealth>().health != GetComponent<HasHealth>().max_health)
+            {
+                GetComponent<HasHealth>().health++;
+            }
+            Destroy(object_collided_with);
+        }
     }
 }
