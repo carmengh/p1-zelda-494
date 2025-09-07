@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,40 +6,46 @@ public class HasHealth : MonoBehaviour
 {
     public Movement movement;
     public StalfosMovement enemy_movement;
+
     public int health = 3;
     public int max_health = 3;
+
     public GetSprites zelda;
     public float force = 4;
     public bool knocked_back = false;
-    Rigidbody rb;
+
+    private Rigidbody rb;
     private bool can_hit = true;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // You can add visual indicators for health here if needed
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         GameObject collided = collision.gameObject;
-        GameObject player = rb.gameObject;
-        if (player.tag == "Player" && collided.tag == "enemy")
+
+        if (CompareTag("Player") && collided.CompareTag("enemy"))
         {
+            // Only apply damage if God Mode is off
             if (can_hit && !SetWindowedResolution.God_Mode)
             {
                 StartCoroutine(HitStun(collided));
+
+                if (health <= 0)
+                {
+                    StartCoroutine(Death(2));
+                }
             }
-            
-            if (health == 0)
+            else if (SetWindowedResolution.God_Mode)
             {
-                StartCoroutine(Death(2));
+                Debug.Log("Player is in God Mode – no damage taken.");
             }
         }
     }
@@ -48,16 +53,43 @@ public class HasHealth : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         GameObject collided = other.gameObject;
-        GameObject player = rb.gameObject;
-        bool sword_hits = (!collided.GetComponent<Sword>().is_projectile && collided.GetComponent<Sword>().swinging) || (collided.GetComponent<Sword>().is_projectile);
-        if (player.tag == "enemy" && collided.tag == "sword" && sword_hits)
+
+        bool isSword = collided.CompareTag("sword");
+
+        // Projectiles (like arrows) do NOT use Sword.cs
+        bool isProjectile = collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().is_projectile;
+        bool isSwingingSword = collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().swinging;
+
+        bool shouldTakeDamage = (isProjectile || isSwingingSword) && isSword;
+
+        if (CompareTag("enemy") && shouldTakeDamage)
         {
             StartCoroutine(HitStun(collided));
-            if (health == 0)
+
+            if (health <= 0)
             {
-                Destroy(player);
-                GetComponent<DropItem>().Drop();
+                Destroy(gameObject);
+                GetComponent<DropItem>()?.Drop();
             }
+
+            // Destroy projectile after hit
+            if (isProjectile)
+            {
+                Destroy(collided);
+            }
+        }
+
+        // Optional: prevent arrows from damaging the player
+        if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode)
+        {
+            StartCoroutine(HitStun(collided));
+
+            if (health <= 0)
+            {
+                StartCoroutine(Death(2));
+            }
+
+            Destroy(collided);
         }
     }
 
@@ -67,28 +99,21 @@ public class HasHealth : MonoBehaviour
         health--;
         can_hit = false;
 
-        // knockback
-        Vector3 knockback = (rb.transform.position - collided.GetComponent<Rigidbody>().transform.position).normalized;
-        Debug.Log("knockback: " + knockback);
-        knocked_back = true;
+        // Knockback
+        Vector3 knockback = (rb.position - collided.transform.position).normalized;
         rb.AddForce(force * knockback, ForceMode.Impulse);
+        knocked_back = true;
 
-        // disable then reenable movement
-        if (movement != null)
-        {
-            movement.canMove = false;
-        }
-        if (enemy_movement != null) {
-            enemy_movement.can_move = false;
-        }
-        yield return new WaitForSeconds(1);
-        if (movement != null)
-        {
-            movement.canMove = true;
-        }
-        if (enemy_movement != null) {
-            enemy_movement.can_move = true;
-        }
+        // Disable movement temporarily
+        if (movement != null) movement.canMove = false;
+        if (enemy_movement != null) enemy_movement.can_move = false;
+
+        yield return new WaitForSeconds(1f);
+
+        // Re-enable movement
+        if (movement != null) movement.canMove = true;
+        if (enemy_movement != null) enemy_movement.can_move = true;
+
         knocked_back = false;
         ChangeSprite();
         can_hit = true;
@@ -96,57 +121,37 @@ public class HasHealth : MonoBehaviour
 
     IEnumerator Death(int sec_wait)
     {
-        if (movement != null) {
+        if (movement != null)
+        {
             movement.canMove = false;
         }
+
         yield return new WaitForSeconds(sec_wait);
         SceneManager.LoadScene("Main");
     }
 
     void ChangeSprite()
     {
-        GameObject player = rb.gameObject;
-        SpriteRenderer sprite = player.GetComponent<SpriteRenderer>();
-        Sprite player_direction = sprite.sprite;
-
-        // change to hit sprite
-        if (player_direction == zelda.sprites[0])
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer == null || zelda == null || zelda.sprites.Length < 8)
         {
-            // down
-            sprite.sprite = zelda.sprites[4];
-        }
-        if (player_direction == zelda.sprites[1])
-        {
-            // left
-            sprite.sprite = zelda.sprites[5];
-        }
-        if (player_direction == zelda.sprites[2])
-        {
-            // up
-            sprite.sprite = zelda.sprites[6];
-        }
-        if (player_direction == zelda.sprites[3])
-        {
-            // right
-            sprite.sprite = zelda.sprites[7];
+            Debug.LogWarning("Missing SpriteRenderer or Zelda sprites on " + gameObject.name);
+            return;
         }
 
-        // change back to regular sprite
-        if (player_direction == zelda.sprites[4])
-        {
-            sprite.sprite = zelda.sprites[0];
-        }
-        if (player_direction == zelda.sprites[5])
-        {
-            sprite.sprite = zelda.sprites[1];
-        }
-        if (player_direction == zelda.sprites[6])
-        {
-            sprite.sprite = zelda.sprites[2];
-        }
-        if (player_direction == zelda.sprites[7])
-        {
-            sprite.sprite = zelda.sprites[3];
-        }
+        Sprite current = spriteRenderer.sprite;
+
+        // Change to "hit" sprite
+        if (current == zelda.sprites[0]) spriteRenderer.sprite = zelda.sprites[4]; // down
+        else if (current == zelda.sprites[1]) spriteRenderer.sprite = zelda.sprites[5]; // left
+        else if (current == zelda.sprites[2]) spriteRenderer.sprite = zelda.sprites[6]; // up
+        else if (current == zelda.sprites[3]) spriteRenderer.sprite = zelda.sprites[7]; // right
+
+        // Restore after hit
+        else if (current == zelda.sprites[4]) spriteRenderer.sprite = zelda.sprites[0];
+        else if (current == zelda.sprites[5]) spriteRenderer.sprite = zelda.sprites[1];
+        else if (current == zelda.sprites[6]) spriteRenderer.sprite = zelda.sprites[2];
+        else if (current == zelda.sprites[7]) spriteRenderer.sprite = zelda.sprites[3];
     }
+
 }
