@@ -33,7 +33,7 @@ public class HasHealth : MonoBehaviour
         GameObject player = rb.gameObject;
         if (player.tag == "Player" && collided.tag == "enemy")
         {
-            if (can_hit)
+            if (can_hit && !SetWindowedResolution.God_Mode)
             {
                 StartCoroutine(HitStun(collided));
             }
