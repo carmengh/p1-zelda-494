@@ -77,17 +77,13 @@ public class Projectile : MonoBehaviour
             Debug.Log("Firing Arrow");
             GetComponent<Movement>().canMove = false;
 
-            StartCoroutine(ShootWithoutPlayerAnimation(164,166,165,167));
+            StartCoroutine(ShootWithoutPlayerAnimation(121, 122, 130, 131));
         }
         else
         {
             Debug.Log("Alt weapon not supported yet: " + currentWeapon);
         }
     }
-    
-
-
-
 
     // takes in index to use for 'zelda' sprite array; look through Assets/Resources/Zelda/link_sprites to find sprite index
     // Ex: 'link_sprites_0' has index of 0, 'link_sprites_117' has index of 117

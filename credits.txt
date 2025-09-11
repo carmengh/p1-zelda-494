@@ -1,0 +1,4 @@
+Credits
+
+stalfos sprite: https://zeldawiki.wiki/wiki/File:TLoZ_Stalfos_Sprite.png
+keese sprite: https://www.spriters-resource.com/nes/legendofzelda/asset/31806/

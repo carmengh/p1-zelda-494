@@ -57,7 +57,10 @@ public class HasHealth : MonoBehaviour
         bool isSword = collided.CompareTag("sword");
 
         // Projectiles (like arrows) do NOT use Sword.cs
-        bool isProjectile = collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().is_projectile;
+        //bool isProjectile = collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().is_projectile;
+        bool isProjectile = (collided.layer == 7);
+        Debug.Log("object layer: " + collided.layer);
+        Debug.Log("is projectile: " + isProjectile);
         bool isSwingingSword = collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().swinging;
 
         bool shouldTakeDamage = (isProjectile || isSwingingSword) && isSword;
