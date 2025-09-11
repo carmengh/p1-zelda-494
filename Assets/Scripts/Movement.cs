@@ -4,17 +4,26 @@ using UnityEngine.InputSystem;
 public class Movement : MonoBehaviour
 {
     public bool canMove = true;
-    Rigidbody rb;
-    public float speed = 4;
-    public GetSprites zelda;
+    private Rigidbody rb;
+    public float speed = 4f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GetSprites zelda;
+    private SpriteRenderer sr;
+
+    private Vector2 current_input;
+    private float animTimer = 0f;
+    private float frameDuration = 0.15f;
+    private int frameIndex = 0;
+
+    private enum Direction { Down = 0, Left = 1, Up = 2, Right = 3 }
+    private Direction facing = Direction.Down;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!canMove)
@@ -25,15 +34,18 @@ public class Movement : MonoBehaviour
             }
             return;
         }
-        Vector2 current_input = GetInput();
-        if (!canMove)
+
+        current_input = GetInput();
+
+        if (current_input != Vector2.zero)
         {
-            if (!GetComponent<HasHealth>().knocked_back)
-            {
-                rb.linearVelocity = Vector2.zero;
-            }
-            return;
+            AnimateWalking();
         }
+        else
+        {
+            ShowIdleFrame();
+        }
+
         rb.linearVelocity = current_input * speed;
     }
 
@@ -42,31 +54,46 @@ public class Movement : MonoBehaviour
         float horizontal_input = Input.GetAxisRaw("Horizontal");
         float vertical_input = Input.GetAxisRaw("Vertical");
 
-        if (Mathf.Abs(horizontal_input) > 0.0f)
-        {
-            vertical_input = 0.0f;
-        }
+        // NES-style: horizontal has priority
+        if (Mathf.Abs(horizontal_input) != 0f)
+            vertical_input = 0f;
 
         GridUtils.GridMovement(ref vertical_input, ref horizontal_input, ref rb);
 
-        // set sprite to show character direction
-        if (horizontal_input == -1)
+        if (horizontal_input == -1) facing = Direction.Left;
+        else if (horizontal_input == 1) facing = Direction.Right;
+        else if (vertical_input == -1) facing = Direction.Down;
+        else if (vertical_input == 1) facing = Direction.Up;
+
+        return new Vector2(horizontal_input, vertical_input);
+    }
+
+    void AnimateWalking()
+    {
+        animTimer += Time.deltaTime;
+
+        if (animTimer >= frameDuration)
         {
-            GetComponent<SpriteRenderer>().sprite = zelda.sprites[1];
-        }
-        else if (horizontal_input == 1)
-        {
-            GetComponent<SpriteRenderer>().sprite = zelda.sprites[3];
-        }
-        if (vertical_input == -1)
-        {
-            GetComponent<SpriteRenderer>().sprite = zelda.sprites[0];
-        }
-        else if (vertical_input == 1)
-        {
-            GetComponent<SpriteRenderer>().sprite = zelda.sprites[2];
+            animTimer = 0f;
+            frameIndex = (frameIndex + 1) % 3; // Cycle through 0,1,2
         }
 
-            return new Vector2(horizontal_input, vertical_input);
+        int spriteIndex = GetSpriteIndex(facing, frameIndex);
+        sr.sprite = zelda.sprites[spriteIndex];
+    }
+
+    void ShowIdleFrame()
+    {
+        frameIndex = 1; // Middle frame is idle
+        int spriteIndex = GetSpriteIndex(facing, frameIndex);
+        sr.sprite = zelda.sprites[spriteIndex];
+    }
+
+    int GetSpriteIndex(Direction direction, int frame)
+    {
+        // Base index for frame (0 = first row, 1 = second row, 2 = third row)
+        // Direction is offset horizontally
+        // Final index = direction + (frame * 12)
+        return (int)direction + (frame * 12);
     }
 }
