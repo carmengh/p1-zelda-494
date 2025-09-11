@@ -1,19 +1,22 @@
+using System.Collections;
 using UnityEngine;
 
-public class StalfosMovement : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
     public float speed = 4f;                 // Movement speed
-    public float moveInterval = 1f;          // Time between direction changes
+    public float moveInterval = 2f;          // Time between direction changes
     public bool can_move = true;
 
     private Rigidbody rb;
     private float moveTimer = 0f;
+    private float curr_speed = 0f;
     private Vector2 currentDirection = Vector2.zero;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         PickNewDirection();
+        curr_speed = speed;
         moveTimer = moveInterval;
     }
 
@@ -39,7 +42,7 @@ public class StalfosMovement : MonoBehaviour
             currentDirection = new Vector2(horizontalDir, verticalDir);
 
             // Apply movement
-            rb.linearVelocity = new Vector3(currentDirection.x, currentDirection.y, 0f) * speed;
+            rb.linearVelocity = currentDirection * curr_speed;
         }
     }
 

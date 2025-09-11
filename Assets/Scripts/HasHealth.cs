@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class HasHealth : MonoBehaviour
 {
     public Movement movement;
-    public StalfosMovement enemy_movement;
+    public EnemyMovement enemy_movement;
 
     public int health = 3;
     public int max_health = 3;
