@@ -75,7 +75,7 @@ public class Movement : MonoBehaviour
         if (animTimer >= frameDuration)
         {
             animTimer = 0f;
-            frameIndex = (frameIndex + 1) % 3; // Cycle through 0,1,2
+            frameIndex = (frameIndex + 1) % 3;
         }
 
         int spriteIndex = GetSpriteIndex(facing, frameIndex);
@@ -84,16 +84,13 @@ public class Movement : MonoBehaviour
 
     void ShowIdleFrame()
     {
-        frameIndex = 1; // Middle frame is idle
+        frameIndex = 1;
         int spriteIndex = GetSpriteIndex(facing, frameIndex);
         sr.sprite = zelda.sprites[spriteIndex];
     }
 
     int GetSpriteIndex(Direction direction, int frame)
     {
-        // Base index for frame (0 = first row, 1 = second row, 2 = third row)
-        // Direction is offset horizontally
-        // Final index = direction + (frame * 12)
         return (int)direction + (frame * 12);
     }
 }
