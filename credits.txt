@@ -1,4 +1,5 @@
 Credits
 
 stalfos sprite: https://zeldawiki.wiki/wiki/File:TLoZ_Stalfos_Sprite.png
-keese sprite: https://www.spriters-resource.com/nes/legendofzelda/asset/31806/
+keese, gel, goriya, wallmaster, bladetrap sprite: https://www.spriters-resource.com/nes/legendofzelda/asset/31806/
+aquamentus sprite: https://www.spriters-resource.com/nes/legendofzelda/asset/36632/
