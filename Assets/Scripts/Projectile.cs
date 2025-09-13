@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Projectile : MonoBehaviour
 {
@@ -8,8 +9,10 @@ public class Projectile : MonoBehaviour
     public float speed = .125f;
     public GameObject prefab;
     public GameObject arrowPrefab;
+    public GameObject boomerangPrefab;
     
     public GetSprites zelda;
+    public GoriyaSprite boomerang;
     public GameObject projectile;
     public Sword sword;
     public Inventory inventory;
@@ -79,6 +82,19 @@ public class Projectile : MonoBehaviour
 
             StartCoroutine(ShootWithoutPlayerAnimation(121, 122, 130, 131));
         }
+        else if (currentWeapon == "Boomerang")
+        {
+            Vector3 dir = GetFacingDirection();
+            projectile = Instantiate(boomerangPrefab, transform.position, Quaternion.identity);
+            projectile_made = true;
+
+            Sprite[] boomerangSpin = new Sprite[]
+            {
+               boomerang.boomerangSprites[0] , boomerang.boomerangSprites[1], boomerang.boomerangSprites[2]
+            };
+
+            projectile.GetComponent<Boomerang>().Initialize(transform, dir, boomerangSpin);
+        }
         else
         {
             Debug.Log("Alt weapon not supported yet: " + currentWeapon);
@@ -91,7 +107,7 @@ public class Projectile : MonoBehaviour
     {
         SpriteRenderer player_render = GetComponent<SpriteRenderer>();
         Sprite player_direction = player_render.sprite;
-        if (player_direction == zelda.sprites[0])
+        if (player_direction == zelda.sprites[0]||player_direction == zelda.sprites[12]||player_direction == zelda.sprites[24])
         {
             // down
             player_render.sprite = zelda.sprites[player_down];
@@ -99,7 +115,7 @@ public class Projectile : MonoBehaviour
             StartCoroutine(Move(new Vector3(0, -1, 0)));
             player_render.sprite = zelda.sprites[0];
         }
-        if (player_direction == zelda.sprites[1])
+        else if (player_direction == zelda.sprites[1]||player_direction == zelda.sprites[13]||player_direction == zelda.sprites[25])
         {
             // left
             player_render.sprite = zelda.sprites[player_left];
@@ -107,7 +123,7 @@ public class Projectile : MonoBehaviour
             StartCoroutine(Move(new Vector3(-1, 0, 0)));
             player_render.sprite = zelda.sprites[1];
         }
-        if (player_direction == zelda.sprites[2])
+        else if (player_direction == zelda.sprites[2]||player_direction == zelda.sprites[14]||player_direction == zelda.sprites[26])
         {
             // up
             player_render.sprite = zelda.sprites[player_up];
@@ -115,7 +131,7 @@ public class Projectile : MonoBehaviour
             StartCoroutine(Move(new Vector3(0, 1, 0)));
             player_render.sprite = zelda.sprites[2];
         }
-        if (player_direction == zelda.sprites[3])
+        else if (player_direction == zelda.sprites[3]||player_direction == zelda.sprites[15]||player_direction == zelda.sprites[27])
         {
             // right
             player_render.sprite = zelda.sprites[player_right];
@@ -132,24 +148,23 @@ public class Projectile : MonoBehaviour
         SpriteRenderer player_render = GetComponent<SpriteRenderer>();
         Sprite player_direction = player_render.sprite;
 
-        if (player_direction == zelda.sprites[0])
+        if (player_direction == zelda.sprites[0]||player_direction == zelda.sprites[12]||player_direction == zelda.sprites[24])
         {
             projectile.GetComponent<SpriteRenderer>().sprite = zelda.sprites[weapon_down];
-            Debug.Log("Arrow sprite set to: " + zelda.sprites[weapon_down].name);
 
             StartCoroutine(Move(new Vector3(0, -1, 0)));
         }
-        else if (player_direction == zelda.sprites[1])
+        else if (player_direction == zelda.sprites[1]||player_direction == zelda.sprites[13]||player_direction == zelda.sprites[25])
         {
             projectile.GetComponent<SpriteRenderer>().sprite = zelda.sprites[weapon_left];
             StartCoroutine(Move(new Vector3(-1, 0, 0)));
         }
-        else if (player_direction == zelda.sprites[2])
+        else if (player_direction == zelda.sprites[2]||player_direction == zelda.sprites[14]||player_direction == zelda.sprites[26])
         {
             projectile.GetComponent<SpriteRenderer>().sprite = zelda.sprites[weapon_up];
             StartCoroutine(Move(new Vector3(0, 1, 0)));
         }
-        else if (player_direction == zelda.sprites[3])
+        else if (player_direction == zelda.sprites[3]||player_direction == zelda.sprites[15]||player_direction == zelda.sprites[27])
         {
             projectile.GetComponent<SpriteRenderer>().sprite = zelda.sprites[weapon_right];
             StartCoroutine(Move(new Vector3(1, 0, 0)));
@@ -188,4 +203,25 @@ public class Projectile : MonoBehaviour
         }
         return true;
     }
+    
+
+    Vector3 GetFacingDirection()
+    {
+        Sprite current = GetComponent<SpriteRenderer>().sprite;
+
+        if (current == zelda.sprites[0] || current == zelda.sprites[12] || current == zelda.sprites[24])
+            return Vector3.down;
+
+        if (current == zelda.sprites[1] || current == zelda.sprites[13] || current == zelda.sprites[25])
+            return Vector3.left;
+
+        if (current == zelda.sprites[2] || current == zelda.sprites[14] || current == zelda.sprites[26])
+            return Vector3.up;
+
+        if (current == zelda.sprites[3] || current == zelda.sprites[15] || current == zelda.sprites[27])
+            return Vector3.right;
+
+        return Vector3.down;
+    }
+
 }
