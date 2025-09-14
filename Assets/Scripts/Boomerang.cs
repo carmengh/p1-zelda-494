@@ -7,7 +7,7 @@ public class Boomerang : MonoBehaviour
     public float maxDistance = 4f;
     public float spinFrameRate = 0.1f;
 
-    private Transform playerTransform;
+    private Transform originTransform;
     private Vector3 startPos;
     private Vector3 direction;
     private bool returning = false;
@@ -17,10 +17,9 @@ public class Boomerang : MonoBehaviour
     private int currentFrame = 0;
     private Coroutine spinCoroutine;
 
-    public void Initialize(Transform player, Vector3 dir, Sprite[] sprites)
+    public void Initialize(Transform origin, Vector3 dir, Sprite[] sprites)
     {
-        Debug.Log("Boomerang fired");
-        playerTransform = player;
+        originTransform = origin;
         direction = dir.normalized;
         startPos = transform.position;
 
@@ -33,7 +32,7 @@ public class Boomerang : MonoBehaviour
 
     void Update()
     {
-        if (playerTransform == null) return;
+        if (originTransform == null) return;
 
         if (!returning && Vector3.Distance(transform.position, startPos) >= maxDistance)
         {
@@ -42,12 +41,25 @@ public class Boomerang : MonoBehaviour
 
         if (returning)
         {
-            Vector3 toPlayer = (playerTransform.position - transform.position).normalized;
-            transform.position += toPlayer * speed;
+            Vector3 toOrigin = (originTransform.position - transform.position).normalized;
+            transform.position += toOrigin * speed;
 
-            if (Vector3.Distance(transform.position, playerTransform.position) < 0.3f)
+            if (Vector3.Distance(transform.position, originTransform.position) < 0.3f)
             {
-                playerTransform.GetComponent<Projectile>().projectile_made = false;
+                // Notify Goriya
+                var enemy = originTransform.GetComponent<EnemyMovement>();
+                if (enemy != null)
+                {
+                    enemy.OnBoomerangReturn();
+                }
+
+                // Notify player
+                var proj = originTransform.GetComponent<Projectile>();
+                if (proj != null)
+                {
+                    proj.projectile_made = false;
+                }
+
                 Destroy(gameObject);
             }
         }
@@ -64,18 +76,17 @@ public class Boomerang : MonoBehaviour
             currentFrame = 2;
             sr.flipY = true;
         }
-        
-        else if (dir == Vector3.down)        
+        else if (dir == Vector3.down)
         {
             currentFrame = 2;
             sr.flipY = false;
         }
-        else if (dir == Vector3.left)         
+        else if (dir == Vector3.left)
         {
             currentFrame = 0;
             sr.flipX = false;
         }
-        else if (dir == Vector3.right)         
+        else if (dir == Vector3.right)
         {
             currentFrame = 0;
             sr.flipY = true;
@@ -99,7 +110,7 @@ public class Boomerang : MonoBehaviour
         if (other.CompareTag("enemy"))
         {
             Debug.Log("Boomerang hit: " + other.name);
-            // Add stun or other effects here
+            // Add hit or stun logic here
         }
     }
 }
