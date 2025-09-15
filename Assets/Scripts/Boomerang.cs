@@ -15,7 +15,6 @@ public class Boomerang : MonoBehaviour
     private SpriteRenderer sr;
     private Sprite[] spinSprites;
     private int currentFrame = 0;
-    private Coroutine spinCoroutine;
 
     public void Initialize(Transform origin, Vector3 dir, Sprite[] sprites)
     {
@@ -27,7 +26,7 @@ public class Boomerang : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
 
         SetStartingFrame(direction);
-        spinCoroutine = StartCoroutine(Spin());
+        StartCoroutine(Spin());
     }
 
     void Update()
@@ -102,15 +101,7 @@ public class Boomerang : MonoBehaviour
             yield return new WaitForSeconds(spinFrameRate);
             currentFrame = (currentFrame + 1) % spinSprites.Length;
             sr.sprite = spinSprites[currentFrame];
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("enemy"))
-        {
-            Debug.Log("Boomerang hit: " + other.name);
-            // Add hit or stun logic here
+            Debug.Log("boomerang sprite: " + sr.sprite);
         }
     }
 }

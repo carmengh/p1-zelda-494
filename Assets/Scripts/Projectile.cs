@@ -14,7 +14,6 @@ public class Projectile : MonoBehaviour
     public GameObject explosionPrefab;
     
     public GetSprites zelda;
-    public GoriyaSprite boomerang;
     public GameObject projectile;
     public Sword sword;
     public Inventory inventory;
@@ -60,6 +59,10 @@ public class Projectile : MonoBehaviour
     
     void HandleAltWeapon(string currentWeapon)
     {
+        if (projectile == null)
+        {
+            projectile_made = false;
+        }
         if (projectile_made || !CheckAttack()) return;
 
         if (currentWeapon == "Bow")
@@ -92,7 +95,7 @@ public class Projectile : MonoBehaviour
 
             Sprite[] boomerangSpin = new Sprite[]
             {
-               boomerang.boomerangSprites[0] , boomerang.boomerangSprites[1], boomerang.boomerangSprites[2]
+               zelda.boomerangSprites[0] , zelda.boomerangSprites[1], zelda.boomerangSprites[2]
             };
 
             projectile.GetComponent<Boomerang>().Initialize(transform, dir, boomerangSpin);

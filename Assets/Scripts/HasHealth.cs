@@ -65,8 +65,9 @@ public class HasHealth : MonoBehaviour
 
         bool shouldTakeDamage = (isProjectile || isSwingingSword) && isSword;
 
-        if (CompareTag("enemy") && shouldTakeDamage)
+        if ((CompareTag("enemy") && shouldTakeDamage) || (CompareTag("enemy") && collided.tag == "PlayerBoomerang"))
         {
+            Debug.Log("projectile hit");
             StartCoroutine(HitStun(collided));
 
             if (health <= 0)
@@ -90,7 +91,7 @@ public class HasHealth : MonoBehaviour
         }
 
         // Optional: prevent arrows from damaging the player
-        if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode)
+        if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode && (collided.tag != "player_boomerang"))
         {
             StartCoroutine(HitStun(collided));
 
