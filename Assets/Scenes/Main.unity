@@ -71905,6 +71905,8 @@ MonoBehaviour:
   prefab: {fileID: 659437279}
   arrowPrefab: {fileID: 6249313924516700336, guid: f3db91e26acaa4e2cb5cd7a40d9486cc, type: 3}
   boomerangPrefab: {fileID: 1603532670}
+  bombPrefab: {fileID: 8155991889011765512, guid: 5725c8120dc629a4698701914151eb71, type: 3}
+  explosionPrefab: {fileID: 6998312003960495860, guid: 6f393c9708f90cd4f9988c3c35449495, type: 3}
   zelda: {fileID: 1902036326}
   boomerang: {fileID: 1902036327}
   projectile: {fileID: 0}
