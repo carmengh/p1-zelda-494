@@ -82,6 +82,13 @@ public class HasHealth : MonoBehaviour
             }
         }
 
+        if (CompareTag("enemy") && collided.tag == "explosion")
+        {
+            health = 0;
+            Destroy(gameObject);
+            GetComponent<DropItem>()?.Drop();
+        }
+
         // Optional: prevent arrows from damaging the player
         if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode)
         {

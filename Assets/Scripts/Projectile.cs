@@ -10,6 +10,8 @@ public class Projectile : MonoBehaviour
     public GameObject prefab;
     public GameObject arrowPrefab;
     public GameObject boomerangPrefab;
+    public GameObject bombPrefab;
+    public GameObject explosionPrefab;
     
     public GetSprites zelda;
     public GoriyaSprite boomerang;
@@ -95,10 +97,26 @@ public class Projectile : MonoBehaviour
 
             projectile.GetComponent<Boomerang>().Initialize(transform, dir, boomerangSpin);
         }
+        else if (currentWeapon == "Bomb")
+        {
+            StartCoroutine(DropBomb());
+        }
         else
         {
             Debug.Log("Alt weapon not supported yet: " + currentWeapon);
         }
+    }
+
+    IEnumerator DropBomb()
+    {
+        Vector3 spawn = transform.position;
+        GameObject bomb = Instantiate(bombPrefab, spawn, Quaternion.identity);
+        yield return new WaitForSeconds(2);
+        Destroy(bomb);
+        GameObject explosion = Instantiate(explosionPrefab, spawn, Quaternion.identity);
+        yield return new WaitForSeconds(0.5f);
+        Destroy(explosion);
+        yield return null;
     }
 
     // takes in index to use for 'zelda' sprite array; look through Assets/Resources/Zelda/link_sprites to find sprite index

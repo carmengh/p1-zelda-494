@@ -66,7 +66,10 @@ public class Inventory : MonoBehaviour
             if (!altWeapons.Contains("Boomerang"))
             {
                 altWeapons.Add("Boomerang");
-
+            }
+            if (!altWeapons.Contains("Bomb"))
+            {
+                altWeapons.Add("Bomb");
             }
         }
     }
