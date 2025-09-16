@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PushableBlock : MonoBehaviour
 {
-    public float requiredPushTime = 2f;
+    public float requiredPushTime = 1f;
     public Sprite newSprite;
     public Sprite otherNewSprite;
     public AudioClip swapSound;

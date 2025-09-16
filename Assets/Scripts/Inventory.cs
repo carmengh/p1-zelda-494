@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
 {
     public int rupee_count = 0;
     public int key_count = 0;
-    List<string> altWeapons = new List<string>();
+    public List<string> altWeapons = new List<string>();
     private int current_wep = 0;
     public Text altWeaponText;
     public int bomb_count = 0;
@@ -16,9 +16,7 @@ public class Inventory : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        altWeapons.Add("Bow");
         UpdateAltWeaponUI();
-
     }
 
     // Update is called once per frame
@@ -39,11 +37,15 @@ public class Inventory : MonoBehaviour
             GodMode();
         }
     }
-    void UpdateAltWeaponUI()
+    public void UpdateAltWeaponUI()
     {
         if (altWeaponText != null)
         {
             altWeaponText.text = "Alt Weapon: " + altWeapons[current_wep];
+        }
+        else
+        {
+            altWeaponText.text = "";
         }
     }
 
@@ -63,13 +65,20 @@ public class Inventory : MonoBehaviour
         {
             rupee_count += 1000;
             bomb_count += 1000;
+            if (!altWeapons.Contains("Bow"))
+            {
+                altWeapons.Add("Bow");
+                UpdateAltWeaponUI();
+            }
             if (!altWeapons.Contains("Boomerang"))
             {
                 altWeapons.Add("Boomerang");
+                UpdateAltWeaponUI();
             }
             if (!altWeapons.Contains("Bomb"))
             {
                 altWeapons.Add("Bomb");
+                UpdateAltWeaponUI();
             }
         }
     }

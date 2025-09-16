@@ -24,6 +24,12 @@ public class Collector : MonoBehaviour
     void OnTriggerEnter(Collider coll)
     {
         GameObject object_collided_with = coll.gameObject;
+        if (object_collided_with.tag == "bow")
+        {
+            Destroy(object_collided_with);
+            GetComponent<Inventory>().altWeapons.Add("Bow");
+            GetComponent<Inventory>().UpdateAltWeaponUI();
+        }
 
         if (object_collided_with.tag == "rupee")
         {
