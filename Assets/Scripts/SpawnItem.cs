@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class SpawnKey : MonoBehaviour
+public class SpawnItem : MonoBehaviour
 {
     public GameObject[] enemies;
-    public GameObject key;
+    public GameObject item;
 
     bool spawn = false;
 
@@ -34,7 +34,7 @@ public class SpawnKey : MonoBehaviour
         }
 
         if (spawn) {
-            Instantiate(key, transform.position, transform.rotation);
+            Instantiate(item, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }
