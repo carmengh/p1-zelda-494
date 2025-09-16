@@ -24,13 +24,28 @@ public class Collector : MonoBehaviour
     void OnTriggerEnter(Collider coll)
     {
         GameObject object_collided_with = coll.gameObject;
+
+        // get weapon
         if (object_collided_with.tag == "bow")
         {
             Destroy(object_collided_with);
             GetComponent<Inventory>().altWeapons.Add("Bow");
             GetComponent<Inventory>().UpdateAltWeaponUI();
         }
+        if (object_collided_with.tag == "PlayerBoomerang")
+        {
+            Destroy(object_collided_with);
+            GetComponent<Inventory>().altWeapons.Add("Boomerang");
+            GetComponent<Inventory>().UpdateAltWeaponUI();
+        }
+        if (object_collided_with.tag == "bomb")
+        {
+            Destroy(object_collided_with);
+            GetComponent<Inventory>().altWeapons.Add("Bomb");
+            GetComponent<Inventory>().UpdateAltWeaponUI();
+        }
 
+        // get item
         if (object_collided_with.tag == "rupee")
         {
             Debug.Log("collected rupee");
