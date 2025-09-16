@@ -153,6 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19098ad2d36c84c93a4a9d63d7e603f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boomerang
-  speed: 0.1
+  speed: 2
   maxDistance: 4
   spinFrameRate: 0.1

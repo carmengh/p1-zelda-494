@@ -276,7 +276,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoriyaSprite
   sprites: []
-  boomerangSprites: []
 --- !u!4 &229905549
 Transform:
   m_ObjectHideFlags: 0
@@ -534,6 +533,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1140533970992473877, guid: d7e26000cad844e51a6405aeed09eec6, type: 3}
+      propertyPath: m_Constraints
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 3307493166858237892, guid: d7e26000cad844e51a6405aeed09eec6, type: 3}
       propertyPath: m_Name
       value: goriya
@@ -549,7 +552,7 @@ PrefabInstance:
     - target: {fileID: 5120582420414631777, guid: d7e26000cad844e51a6405aeed09eec6, type: 3}
       propertyPath: boomerangPrefab
       value: 
-      objectReference: {fileID: 3174352807211012902, guid: 9fad0b1aa88b6445dbab330d29f7aa3e, type: 3}
+      objectReference: {fileID: 882065929418692228, guid: 54c53fa981dac04418363c266acc1615, type: 3}
     - target: {fileID: 5120582420414631777, guid: d7e26000cad844e51a6405aeed09eec6, type: 3}
       propertyPath: spinSprites.Array.size
       value: 3
