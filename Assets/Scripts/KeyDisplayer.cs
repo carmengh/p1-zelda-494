@@ -1,0 +1,21 @@
+using UnityEngine;
+using UnityEngine.UI;
+public class KeyDisplayer : MonoBehaviour
+{
+    public Inventory inventory;
+    Text text_component;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        text_component = GetComponent<Text>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (inventory != null && text_component != null)
+        {
+            text_component.text = "Keys: " + inventory.key_count.ToString();
+        }
+    }
+}

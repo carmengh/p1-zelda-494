@@ -6,96 +6,84 @@ public class EnemyMovement : MonoBehaviour
     public float speed = 4f;
     public float moveInterval = 2f;
     public bool can_move = true;
-    public string enemyType;
 
-    private Rigidbody rb;
-    private float moveTimer = 0f;
+    private float moveTimer;
     private Vector2 currentDirection = Vector2.zero;
-
-    public GoriyaSprite goriyaSprites;
+    private Rigidbody rb;
     private SpriteRenderer sR;
 
-    public GameObject boomerangPrefab;
-    public Sprite[] spinSprites;
-    public float fireInterval = 3f;
-    public float cooldownAfterReturn = 1.5f;
+    public string enemyType;
+    public GoriyaSprite goriyaSprites;
 
-    private bool boomerangActive = false;
-    private bool waitingToFire = false;
-    private float fireTimer = 0f;
+    public Vector3 lastDirection = Vector3.down;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         sR = GetComponent<SpriteRenderer>();
 
-        PickNewDirection();
         moveTimer = moveInterval;
-        fireTimer = fireInterval;
+
+        PickNewDirection();
     }
 
     void Update()
     {
-        if (can_move)
-        {
-            moveTimer -= Time.deltaTime;
-
-            if (moveTimer <= 0f)
-            {
-                PickNewDirection();
-                moveTimer = moveInterval;
-            }
-
-            float verticalDir = currentDirection.y;
-            float horizontalDir = currentDirection.x;
-
-            GridUtils.GridMovement(ref verticalDir, ref horizontalDir, ref rb);
-            currentDirection = new Vector2(horizontalDir, verticalDir);
-
-            rb.linearVelocity = currentDirection * speed;
-        }
-        else
-        {
-            rb.linearVelocity = Vector3.zero;
-        }
-
-        if (enemyType == "goriya" && !boomerangActive && !waitingToFire)
-        {
-            fireTimer -= Time.deltaTime;
-
-            if (fireTimer <= 0f)
-            {
-                FireBoomerang();
-                fireTimer = fireInterval;
-            }
-        }
+        HandleMovement();
     }
 
-    void PickNewDirection()
+    private void HandleMovement()
+    {
+        if (!can_move)
+        {
+            rb.linearVelocity = Vector3.zero;
+            return;
+        }
+
+        moveTimer -= Time.deltaTime;
+
+        if (moveTimer <= 0f)
+        {
+            PickNewDirection();
+            moveTimer = moveInterval;
+        }
+
+        float vertical = currentDirection.y;
+        float horizontal = currentDirection.x;
+
+        GridUtils.GridMovement(ref vertical, ref horizontal, ref rb);
+        currentDirection = new Vector2(horizontal, vertical);
+
+        rb.linearVelocity = currentDirection * speed;
+    }
+
+    private void PickNewDirection()
     {
         int dir = Random.Range(0, 4);
+
         switch (dir)
         {
             case 0:
                 currentDirection = Vector2.up;
-                if (enemyType == "goriya") SetSprite("up");
+                lastDirection = Vector3.up;
                 break;
             case 1:
                 currentDirection = Vector2.down;
-                if (enemyType == "goriya") SetSprite("down");
+                lastDirection = Vector3.down;
                 break;
             case 2:
                 currentDirection = Vector2.left;
-                if (enemyType == "goriya") SetSprite("left");
+                lastDirection = Vector3.left;
                 break;
             case 3:
                 currentDirection = Vector2.right;
-                if (enemyType == "goriya") SetSprite("right");
+                lastDirection = Vector3.right;
                 break;
         }
+        SetGoriyaSprite(lastDirection);
     }
 
-    void SetSprite(string direction)
+    private void SetGoriyaSprite(Vector3 dir)
     {
         if (goriyaSprites == null || goriyaSprites.sprites == null || goriyaSprites.sprites.Length < 4)
         {
@@ -103,73 +91,23 @@ public class EnemyMovement : MonoBehaviour
             return;
         }
 
-        switch (direction)
+        if (dir == Vector3.down)
         {
-            case "down":
-                sR.sprite = goriyaSprites.sprites[0];
-                sR.flipX = false;
-                break;
-            case "left":
-                sR.sprite = goriyaSprites.sprites[2];
-                sR.flipX = true;
-                break;
-            case "up":
-                sR.sprite = goriyaSprites.sprites[1];
-                sR.flipX = false;
-                break;
-            case "right":
-                sR.sprite = goriyaSprites.sprites[2];
-                sR.flipX = false;
-                break;
+            sR.sprite = goriyaSprites.sprites[0];
         }
-    }
-
-    void FireBoomerang()
-    {
-        if (boomerangPrefab == null || spinSprites == null || spinSprites.Length == 0)
+        else if (dir == Vector3.up)
         {
-            Debug.LogWarning("Boomerang prefab or spin sprites not assigned.");
-            return;
+            sR.sprite = goriyaSprites.sprites[1];
         }
-
-        Vector3 dir;
-
-        if (sR.sprite == goriyaSprites.sprites[1]) // up sprite
+        else if (dir == Vector3.left)
         {
-            dir = Vector3.up;
+            sR.sprite = goriyaSprites.sprites[2];
+            sR.flipX = true;
         }
-        else if (sR.sprite == goriyaSprites.sprites[0]) // down sprite
+        else if (dir == Vector3.right)
         {
-            dir = Vector3.down;
+            sR.sprite = goriyaSprites.sprites[2];
+            sR.flipX = false;
         }
-        else if (sR.sprite == goriyaSprites.sprites[2]) // side sprite
-        {
-            dir = sR.flipX ? Vector3.left : Vector3.right;
-        }
-        else
-        {
-            dir = currentDirection != Vector2.zero ? new Vector3(currentDirection.x, currentDirection.y, 0).normalized : Vector3.right;
-        }
-
-        can_move = false;
-        boomerangActive = true;
-
-        GameObject boom = Instantiate(boomerangPrefab, transform.position, Quaternion.identity);
-        Boomerang boomScript = boom.GetComponent<Boomerang>();
-        boomScript.Initialize(transform, dir, spinSprites);
-    }
-
-    public void OnBoomerangReturn()
-    {
-        can_move = true;
-        boomerangActive = false;
-        StartCoroutine(FireCooldown());
-    }
-
-    IEnumerator FireCooldown()
-    {
-        waitingToFire = true;
-        yield return new WaitForSeconds(cooldownAfterReturn);
-        waitingToFire = false;
     }
 }

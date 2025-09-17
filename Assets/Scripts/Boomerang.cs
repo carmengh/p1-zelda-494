@@ -40,17 +40,18 @@ public class Boomerang : MonoBehaviour
 
         if (returning)
         {
+            Debug.Log("returning");
             Vector3 toOrigin = (originTransform.position - transform.position).normalized;
             transform.position += toOrigin * speed;
 
             if (Vector3.Distance(transform.position, originTransform.position) < 0.3f)
             {
                 // Notify Goriya
-                var enemy = originTransform.GetComponent<EnemyMovement>();
-                if (enemy != null)
-                {
-                    enemy.OnBoomerangReturn();
-                }
+                //var enemy = originTransform.GetComponent<EnemyMovement>();
+                //if (enemy != null)
+                //{
+                //    enemy.OnBoomerangReturn();
+                //}
 
                 // Notify player
                 var proj = originTransform.GetComponent<Projectile>();
@@ -96,8 +97,8 @@ public class Boomerang : MonoBehaviour
 
     IEnumerator Spin()
     {
-        AudioClip spin_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (18)");
-        AudioSource.PlayClipAtPoint(spin_sound, Camera.main.transform.position);
+        //AudioClip spin_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (18)");
+        //AudioSource.PlayClipAtPoint(spin_sound, Camera.main.transform.position);
         while (true)
         {
             yield return new WaitForSeconds(spinFrameRate);

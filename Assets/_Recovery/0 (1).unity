@@ -6824,11 +6824,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 1552747674}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &57260492 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 257742370}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &57571069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -8071,7 +8066,7 @@ RectTransform:
   m_Children:
   - {fileID: 467164427}
   - {fileID: 2056424104}
-  - {fileID: 86148898}
+  - {fileID: 970587401}
   m_Father: {fileID: 1578654315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -10389,11 +10384,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
---- !u!1 &84768397 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 1028349287}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &85237666 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -10493,99 +10483,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 1432405500}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &86148897
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 86148898}
-  - component: {fileID: 86148901}
-  - component: {fileID: 86148900}
-  - component: {fileID: 86148899}
-  m_Layer: 5
-  m_Name: Keys
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &86148898
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86148897}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 68178018}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -46.7}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &86148899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86148897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69f6fa816f021104fa3f71a8fd35067b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KeyDisplayer
-  inventory: {fileID: 687224288}
---- !u!114 &86148900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86148897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: Keys
---- !u!222 &86148901
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86148897}
-  m_CullTransparentMesh: 1
 --- !u!4 &86289840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -35775,10 +35672,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!114 &289254719
 MonoBehaviour:
@@ -37059,10 +36952,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!1001 &301055619
 PrefabInstance:
@@ -38766,16 +38655,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      propertyPath: m_Size.x
-      value: 0.70238495
-      objectReference: {fileID: 0}
-    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      propertyPath: m_Center.x
-      value: 0.14880753
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
@@ -51340,10 +51221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!4 &423458999 stripped
 Transform:
@@ -66806,10 +66683,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!114 &553525502
 MonoBehaviour:
@@ -77834,11 +77707,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 642603939}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &647765285 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 1589970275}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &648187953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80333,10 +80201,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!4 &672799945 stripped
 Transform:
@@ -85457,11 +85321,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &722294409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 503574157}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &722752644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86559,10 +86418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!65 &732507736
 BoxCollider:
@@ -87711,10 +87566,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!1001 &738477339
 PrefabInstance:
@@ -100206,10 +100057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!114 &871223882
 MonoBehaviour:
@@ -103137,30 +102984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
---- !u!114 &896090768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896090764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d292fb2a7de82544c8ed3ef04124149b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OpenDoor
-  locked: 0
-  inventory: {fileID: 687224288}
-  this_new_sprite: {fileID: 8548608813190635221, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
-  other_new_sprite: {fileID: 0}
-  other_door: {fileID: 0}
-  door_sound: {fileID: 8300000, guid: 6952c05be9882ad438ddda66a2d22a65, type: 3}
-  key_can_open: 0
 --- !u!4 &896344228 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -110459,10 +110283,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!4 &959940964 stripped
 Transform:
@@ -111863,6 +111683,99 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &970587400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 970587401}
+  - component: {fileID: 970587404}
+  - component: {fileID: 970587403}
+  - component: {fileID: 970587402}
+  m_Layer: 5
+  m_Name: Keys
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &970587401
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970587400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68178018}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -43.7}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &970587402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970587400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f6fa816f021104fa3f71a8fd35067b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  inventory: {fileID: 687224288}
+--- !u!114 &970587403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970587400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Keys
+--- !u!222 &970587404
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970587400}
+  m_CullTransparentMesh: 1
 --- !u!1001 &970974450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112238,10 +112151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!1001 &976264741
 PrefabInstance:
@@ -117255,10 +117164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!4 &1019458719 stripped
 Transform:
@@ -124221,10 +124126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!1001 &1079255532
 PrefabInstance:
@@ -126262,10 +126163,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!114 &1097410175
 MonoBehaviour:
@@ -134399,10 +134296,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeftDoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!1001 &1161952133
 PrefabInstance:
@@ -136860,11 +136753,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.04
+      value: 37.44
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.56
+      value: 47.01
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -142454,10 +142347,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!114 &1233105461
 MonoBehaviour:
@@ -153889,10 +153778,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!1001 &1325377959
 PrefabInstance:
@@ -157832,10 +157717,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!1 &1352540817 stripped
 GameObject:
@@ -157874,10 +157755,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!4 &1352676767 stripped
 Transform:
@@ -160982,8 +160859,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7562294, y: 1, z: 0.2}
-  m_Center: {x: 0.1218853, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1373124653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -163402,10 +163279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeftDoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!4 &1395525208 stripped
 Transform:
@@ -170575,10 +170448,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!1001 &1446046748
 PrefabInstance:
@@ -177934,10 +177803,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!1001 &1501596921
 PrefabInstance:
@@ -179339,10 +179204,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!4 &1514038843 stripped
 Transform:
@@ -179951,10 +179812,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!4 &1522820528 stripped
 Transform:
@@ -181717,16 +181574,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 1
-  enemies:
-  - {fileID: 57260492}
-  - {fileID: 1832780792}
-  - {fileID: 722294409}
-  - {fileID: 1987940172}
-  - {fileID: 84768397}
-  - {fileID: 647765285}
-  door_close: {fileID: 896090764}
-  close_sprite: {fileID: -6156567986236837295, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
   type: west
 --- !u!4 &1536541935 stripped
 Transform:
@@ -189489,11 +189336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
+  type: east
 --- !u!1001 &1602766113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -194921,9 +194764,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 896090767}
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 896090768}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1658123533
 PrefabInstance:
@@ -195524,10 +195364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!65 &1661641172
 BoxCollider:
@@ -195548,8 +195384,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.7052841, z: 0.2}
-  m_Center: {x: 0, y: -0.14735794, z: 0}
+  m_Size: {x: 0.5, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1661910729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -197515,10 +197351,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RightDoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!1001 &1678063550
 PrefabInstance:
@@ -201812,8 +201644,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.6951561, z: 0.2}
-  m_Center: {x: 0, y: -0.15242195, z: 0}
+  m_Size: {x: 0.5, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1714973602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201827,10 +201659,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!1001 &1715094241
 PrefabInstance:
@@ -208829,10 +208657,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!65 &1776824072
 BoxCollider:
@@ -210402,10 +210226,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!114 &1788733427
 MonoBehaviour:
@@ -211277,10 +211097,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 0}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: 
 --- !u!65 &1798025817
 BoxCollider:
@@ -213610,6 +213426,9 @@ PrefabInstance:
       addedObject: {fileID: 1223954360}
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 647367158}
+    - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 133496113}
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
@@ -213749,9 +213568,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 387709527}
-    - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 647367158}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
 --- !u!1001 &1814837154
@@ -215901,11 +215717,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 625993962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1832780792 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 1754996275}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1833045452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -216741,10 +216552,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!65 &1840291988
 BoxCollider:
@@ -219978,10 +219785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!1001 &1869107401
 PrefabInstance:
@@ -221504,16 +221307,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      propertyPath: m_Size.x
-      value: 0.60318375
-      objectReference: {fileID: 0}
-    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      propertyPath: m_Center.x
-      value: -0.19840813
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
@@ -233012,11 +232807,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
   m_PrefabInstance: {fileID: 520332677}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1987940172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 2021362176}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1988577168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -233041,8 +232831,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.78614044, z: 0.2}
-  m_Center: {x: 0, y: -0.10692978, z: 0}
+  m_Size: {x: 0.5, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1988577171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233056,10 +232846,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!1001 &1988763661
 PrefabInstance:
@@ -235458,10 +235244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!65 &2007456730
 BoxCollider:
@@ -235482,8 +235264,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.74030304, z: 0.2}
-  m_Center: {x: 0, y: -0.12984848, z: 0}
+  m_Size: {x: 0.5, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2007514023 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -236162,7 +235944,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 6453561030650598409, guid: 13cd01fb3048f41eeafa5adfd9f6d298, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -236547,10 +236329,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!1 &2016265731 stripped
 GameObject:
@@ -236591,10 +236369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: west
 --- !u!114 &2016265735
 MonoBehaviour:
@@ -239640,10 +239414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!65 &2045428476
 BoxCollider:
@@ -244942,8 +244712,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7114601, y: 1, z: 0.2}
-  m_Center: {x: 0.14426994, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2086179610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -245963,10 +245733,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!4 &2094786573 stripped
 Transform:
@@ -250076,10 +249842,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!1001 &2132803376
 PrefabInstance:
@@ -250959,10 +250721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: east
 --- !u!1 &2138766423 stripped
 GameObject:
@@ -250982,10 +250740,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: south
 --- !u!65 &2138766426
 BoxCollider:
@@ -251338,10 +251092,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
   type: north
 --- !u!65 &2140107143
 BoxCollider:

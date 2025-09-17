@@ -59,15 +59,12 @@ public class HasHealth : MonoBehaviour
         // Projectiles (like arrows) do NOT use Sword.cs
         //bool isProjectile = collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().is_projectile;
         bool isProjectile = (collided.layer == 7);
-        Debug.Log("object layer: " + collided.layer);
-        Debug.Log("is projectile: " + isProjectile);
         bool isSwingingSword = collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().swinging;
 
         bool shouldTakeDamage = (isProjectile || isSwingingSword) && isSword;
 
         if ((CompareTag("enemy") && shouldTakeDamage) || (CompareTag("enemy") && collided.tag == "PlayerBoomerang"))
         {
-            Debug.Log("projectile hit");
             AudioClip hit_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (8)");
             AudioSource.PlayClipAtPoint(hit_sound, Camera.main.transform.position);
             StartCoroutine(HitStun(collided));
@@ -93,7 +90,7 @@ public class HasHealth : MonoBehaviour
         }
 
         // Optional: prevent arrows from damaging the player
-        if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode && (collided.tag != "player_boomerang"))
+        if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode && (collided.tag != "PlayerBoomerang"))
         {
             AudioClip hit_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (10)");
             AudioSource.PlayClipAtPoint(hit_sound, Camera.main.transform.position);

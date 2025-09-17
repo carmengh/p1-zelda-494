@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6192985712953145824}
   - component: {fileID: 6534662803004648059}
   - component: {fileID: 6485818591156731414}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: PlayerBoomerang
   m_TagString: PlayerBoomerang
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!65 &6534662803004648059
 BoxCollider:

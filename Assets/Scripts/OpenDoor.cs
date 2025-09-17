@@ -31,10 +31,14 @@ public class OpenDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         GameObject player = other.gameObject;
+        bool player_check = player.tag == "Player" && inventory.key_count > 0 && key_can_open;
 
-        if (player.tag == "Player" && inventory.key_count > 0 && key_can_open)
+        if (player_check || SetWindowedResolution.God_Mode)
         {
-            Open();
+            if (locked)
+            {
+                Open();
+            }
         }
     }
 
@@ -46,15 +50,13 @@ public class OpenDoor : MonoBehaviour
             other_old_sprite = other_door.GetComponent<SpriteRenderer>();
         }
 
-        if (locked) inventory.key_count--;
+        if (!SetWindowedResolution.God_Mode && key_can_open) inventory.key_count--;
         locked = false;
-        GetComponent<BoxCollider>().enabled = false;
         old_sprite.sprite = this_new_sprite;
 
         if (other_door != null)
         {
             other_door_locked.locked = false;
-            other_door.GetComponent<BoxCollider>().enabled = false;
             other_old_sprite.sprite = other_new_sprite;
         }
         AudioSource.PlayClipAtPoint(door_sound, Camera.main.transform.position);

@@ -36,6 +36,7 @@ public class SpawnItem : MonoBehaviour
         if (spawn) {
             AudioClip spawn_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (19)");
             AudioSource.PlayClipAtPoint(spawn_sound, Camera.main.transform.position);
+            if (item.tag == "PlayerBoomerang") item.layer = 0;
             Instantiate(item, transform.position, transform.rotation);
             Destroy(gameObject);
         }

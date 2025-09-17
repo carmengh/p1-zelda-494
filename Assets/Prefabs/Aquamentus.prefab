@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1759490667192494497}
   - component: {fileID: 6902945751092679261}
   - component: {fileID: 1924583984693583545}
+  - component: {fileID: 811608935965982463}
   m_Layer: 0
   m_Name: Aquamentus
   m_TagString: enemy
@@ -160,3 +161,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &811608935965982463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5202139762456401118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add93205e21d4824fb5706b4c0d73181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HasHealth
+  movement: {fileID: 0}
+  enemy_movement: {fileID: 0}
+  health: 5
+  max_health: 5
+  zelda: {fileID: 0}
+  force: 4
+  knocked_back: 0
