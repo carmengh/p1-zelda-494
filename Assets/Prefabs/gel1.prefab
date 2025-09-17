@@ -121,7 +121,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!65 &4336094271461449152
 BoxCollider:
@@ -213,6 +213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DropItem
   heart: {fileID: 5577941154099887948, guid: 02e61348435d8254d8b162a554761e19, type: 3}
   rupee: {fileID: 5418155383407606646, guid: 6176d93e56edef54594863a57de09409, type: 3}
-  key: {fileID: 937831252983600732, guid: 8cf3810fcdb845f4198b80d045551a8d, type: 3}
-  has_key: 0
+  bomb: {fileID: 0}
+  holding: {fileID: 0}
   drop_rate: 0.5

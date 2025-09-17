@@ -57,6 +57,8 @@ public class AquamentusMovement : MonoBehaviour
         Vector3 upAngle = Quaternion.Euler(0f, 0f, spreadAngle) * left;
         Vector3 downAngle = Quaternion.Euler(0f, 0f, -spreadAngle) * left;
 
+        AudioClip fire_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (28)");
+        AudioSource.PlayClipAtPoint(fire_sound, transform.position);
         FireSingleShot(left);
         FireSingleShot(upAngle);
         FireSingleShot(downAngle);

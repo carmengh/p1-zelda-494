@@ -34,6 +34,8 @@ public class SpawnItem : MonoBehaviour
         }
 
         if (spawn) {
+            AudioClip spawn_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (19)");
+            AudioSource.PlayClipAtPoint(spawn_sound, Camera.main.transform.position);
             Instantiate(item, transform.position, transform.rotation);
             Destroy(gameObject);
         }

@@ -5,16 +5,18 @@ public class PushableBlock : MonoBehaviour
     public float requiredPushTime = 1f;
     public Sprite newSprite;
     public Sprite otherNewSprite;
-    public AudioClip swapSound;
+    public GameObject open_door;
 
     private float pushTimer = 0f;
     private bool hasSwapped = false;
     private Vector3 lastPushDirection;
     private SpriteRenderer sr;
+    AudioClip swapSound;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        AudioClip swapSound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (21)");
     }
 
     private void OnCollisionStay(Collision collision)
@@ -90,6 +92,10 @@ public class PushableBlock : MonoBehaviour
 
         if (swapSound != null)
             AudioSource.PlayClipAtPoint(swapSound, Camera.main.transform.position);
+        if (open_door != null)
+        {
+            open_door.GetComponent<OpenDoor>().Open();
+        }
     }
 
     private GameObject GetBlockInDirection(Vector3 direction)

@@ -31,13 +31,19 @@ public class Sword : MonoBehaviour
 
         Melee();  // check if you can melee instead of use projectile
         
-        if (Input.GetKeyDown(KeyCode.X) && !swinging && !is_projectile && can_attack)
+        if (Input.GetKeyDown(KeyCode.X) && !swinging && can_attack)
         {
-            Debug.Log("x pressed");
-            swinging = true;
-            player.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
-            player.GetComponent<Movement>().canMove = false;
-            StartCoroutine(SwingDirection(1));
+            Debug.Log("pressed x");
+            AudioClip sword_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (6)");
+            AudioSource.PlayClipAtPoint(sword_sound, Camera.main.transform.position);
+            if (!is_projectile)
+            {
+                Debug.Log("not projectile");
+                swinging = true;
+                player.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
+                player.GetComponent<Movement>().canMove = false;
+                StartCoroutine(SwingDirection(1));
+            }
         }
     }
 
@@ -47,7 +53,7 @@ public class Sword : MonoBehaviour
         Sprite player_direction = player_render.sprite;
 
         // make swing direction based on which way link sprite is facing
-        if (player_direction == zelda.sprites[0])
+        if (player_direction == zelda.sprites[0] || player_direction == zelda.sprites[12] || player_direction == zelda.sprites[24])
         {
             // down
             player_render.sprite = zelda.sprites[36];
@@ -57,7 +63,7 @@ public class Sword : MonoBehaviour
             yield return new WaitForSeconds(swing_time);
             player_render.sprite = zelda.sprites[0];
         }
-        if (player_direction == zelda.sprites[1])
+        if (player_direction == zelda.sprites[1] || player_direction == zelda.sprites[13] || player_direction == zelda.sprites[25])
         {
             // left
             player_render.sprite = zelda.sprites[37];
@@ -67,7 +73,7 @@ public class Sword : MonoBehaviour
             yield return new WaitForSeconds(swing_time);
             player_render.sprite = zelda.sprites[1];
         }
-        if (player_direction == zelda.sprites[2])
+        if (player_direction == zelda.sprites[2] || player_direction == zelda.sprites[14] || player_direction == zelda.sprites[26])
         {
             // up
             player_render.sprite = zelda.sprites[38];
@@ -77,7 +83,7 @@ public class Sword : MonoBehaviour
             yield return new WaitForSeconds(swing_time);
             player_render.sprite = zelda.sprites[2];
         }
-        if (player_direction == zelda.sprites[3])
+        if (player_direction == zelda.sprites[3] || player_direction == zelda.sprites[15] || player_direction == zelda.sprites[27])
         {
             // right
             player_render.sprite = zelda.sprites[39];

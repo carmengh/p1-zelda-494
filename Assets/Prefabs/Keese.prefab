@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5865658338580228600}
   - component: {fileID: 1635286209625277102}
   - component: {fileID: 6289358416163227408}
+  - component: {fileID: -1968608097805463373}
+  - component: {fileID: -6231401821848719967}
   m_Layer: 0
   m_Name: Keese
   m_TagString: enemy
@@ -157,3 +159,39 @@ MonoBehaviour:
   move_interval: 0.5
   pause_interval: 10
   can_move: 1
+--- !u!114 &-1968608097805463373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6177741596214277080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add93205e21d4824fb5706b4c0d73181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HasHealth
+  movement: {fileID: 0}
+  enemy_movement: {fileID: 0}
+  health: 1
+  max_health: 1
+  zelda: {fileID: 0}
+  force: 4
+  knocked_back: 0
+--- !u!114 &-6231401821848719967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6177741596214277080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14bd65203708b94c951268ae6d4cab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropItem
+  heart: {fileID: 5577941154099887948, guid: 02e61348435d8254d8b162a554761e19, type: 3}
+  rupee: {fileID: 5418155383407606646, guid: 6176d93e56edef54594863a57de09409, type: 3}
+  bomb: {fileID: 0}
+  holding: {fileID: 0}
+  drop_rate: 0.25

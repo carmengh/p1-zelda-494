@@ -5,9 +5,10 @@ public class DropItem : MonoBehaviour
 {
     public GameObject heart;
     public GameObject rupee;
-    public GameObject key;
-    public bool has_key = false;
+    public GameObject bomb;
+    public GameObject holding = null;
     public float drop_rate = 1;
+    bool drop_holding = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,14 +19,21 @@ public class DropItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!drop_holding && (holding != null)) holding.transform.position = transform.position;
     }
 
     public void Drop()
     {
-        if (has_key)
+        if (holding != null)
         {
-            Instantiate(key, transform.position, transform.rotation);
+            drop_holding = true;
+            holding.tag = "key";
+            return;
+        }
+
+        if (bomb != null)
+        {
+            Instantiate(bomb, transform.position, transform.rotation);
             return;
         }
 

@@ -7,10 +7,27 @@ public class DoorTrigger : MonoBehaviour
 
     public string type;
     private bool hasActivated = false;
+    OpenDoor door;
+    bool door_locked;
+
+    private void Start()
+    {
+        door = GetComponent<OpenDoor>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!hasActivated && other.CompareTag("Player"))
+        if (door == null)
+        {
+            door_locked = false;
+        }
+        else
+        {
+            door_locked = door.locked;
+        }
+
+        Debug.Log("has activated: " + hasActivated);
+        if (!hasActivated && other.CompareTag("Player") && !door_locked)
         {
             hasActivated = true;
             if (type == "east")
@@ -30,14 +47,15 @@ public class DoorTrigger : MonoBehaviour
             {
                 cameraController.StartCameraTransitionDown();
             }
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
             hasActivated = false;
         }
     }
+
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.CompareTag("Player"))
+    //    {
+    //        hasActivated = false;
+    //    }
+    //}
 }

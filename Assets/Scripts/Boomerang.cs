@@ -96,6 +96,8 @@ public class Boomerang : MonoBehaviour
 
     IEnumerator Spin()
     {
+        AudioClip spin_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (18)");
+        AudioSource.PlayClipAtPoint(spin_sound, Camera.main.transform.position);
         while (true)
         {
             yield return new WaitForSeconds(spinFrameRate);

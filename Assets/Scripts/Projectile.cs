@@ -53,6 +53,8 @@ public class Projectile : MonoBehaviour
             GetComponent<Movement>().canMove = false;
 
             // Replace these sprite indices with appropriate sword beam ones
+            AudioClip sword_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (13)");
+            AudioSource.PlayClipAtPoint(sword_sound, Camera.main.transform.position);
             StartCoroutine(Shoot(38, 36, 39, 37, 119, 117, 120, 118));
         }
     }
@@ -118,6 +120,8 @@ public class Projectile : MonoBehaviour
         Destroy(bomb);
         GameObject explosion = Instantiate(explosionPrefab, spawn, Quaternion.identity);
         yield return new WaitForSeconds(0.5f);
+        AudioClip explode_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (10)");
+        AudioSource.PlayClipAtPoint(explode_sound, Camera.main.transform.position);
         Destroy(explosion);
         yield return null;
     }

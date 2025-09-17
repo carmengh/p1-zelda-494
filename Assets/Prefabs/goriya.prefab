@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 673577919977068050}
   - component: {fileID: 4100687701759227066}
   - component: {fileID: 5120582420414631777}
+  - component: {fileID: -2521394110680896983}
   m_Layer: 0
   m_Name: goriya
   m_TagString: enemy
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5c1eab9ac9720044eba36cd5c6d24396, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -119,7 +120,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 64
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!65 &673577919977068050
 BoxCollider:
@@ -185,3 +186,20 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c53d97e5987c076479f76d0a62ed2d04, type: 3}
   fireInterval: 3
   cooldownAfterReturn: 1.5
+--- !u!114 &-2521394110680896983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3307493166858237892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14bd65203708b94c951268ae6d4cab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropItem
+  heart: {fileID: 5577941154099887948, guid: 02e61348435d8254d8b162a554761e19, type: 3}
+  rupee: {fileID: 5418155383407606646, guid: 6176d93e56edef54594863a57de09409, type: 3}
+  bomb: {fileID: 0}
+  holding: {fileID: 0}
+  drop_rate: 0.25

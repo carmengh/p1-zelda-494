@@ -4,10 +4,14 @@ public class Collector : MonoBehaviour
 {
     Inventory inventory;
     public AudioClip rupee_collection_sound;
+    AudioClip collect_sound;
+    AudioClip weapon_sound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        weapon_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (16)");
+        collect_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (4)");
         inventory = GetComponent<Inventory>();
         if (inventory != null)
         {
@@ -28,18 +32,22 @@ public class Collector : MonoBehaviour
         // get weapon
         if (object_collided_with.tag == "bow")
         {
+            AudioClip bow_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (4)");
+            AudioSource.PlayClipAtPoint(bow_sound, Camera.main.transform.position);
             Destroy(object_collided_with);
             GetComponent<Inventory>().altWeapons.Add("Bow");
             GetComponent<Inventory>().UpdateAltWeaponUI();
         }
         if (object_collided_with.tag == "PlayerBoomerang")
         {
+            AudioSource.PlayClipAtPoint(weapon_sound, Camera.main.transform.position);
             Destroy(object_collided_with);
             GetComponent<Inventory>().altWeapons.Add("Boomerang");
             GetComponent<Inventory>().UpdateAltWeaponUI();
         }
         if (object_collided_with.tag == "bomb")
         {
+            AudioSource.PlayClipAtPoint(weapon_sound, Camera.main.transform.position);
             Destroy(object_collided_with);
             GetComponent<Inventory>().altWeapons.Add("Bomb");
             GetComponent<Inventory>().UpdateAltWeaponUI();
@@ -66,6 +74,8 @@ public class Collector : MonoBehaviour
                 Debug.Log("keys: " + inventory.key_count);
             }
             Destroy(object_collided_with);
+
+            AudioSource.PlayClipAtPoint(collect_sound, Camera.main.transform.position);
         }
         if (object_collided_with.tag == "heart")
         {
@@ -74,6 +84,7 @@ public class Collector : MonoBehaviour
                 GetComponent<HasHealth>().health++;
             }
             Destroy(object_collided_with);
+            AudioSource.PlayClipAtPoint(collect_sound, Camera.main.transform.position);
         }
     }
 }

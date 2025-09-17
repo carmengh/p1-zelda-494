@@ -47674,7 +47674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.05
+      value: 39.97
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -76743,9 +76743,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2016265733}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2016265735}
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &642314950 stripped
 Transform:
@@ -136597,11 +136594,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.44
+      value: 39.37
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 47.01
+      value: 46.55
       objectReference: {fileID: 0}
     - target: {fileID: 2926590125549155445, guid: 6937d416606de4b5e9187a385f0440a5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -166871,32 +166868,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1422362684}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
---- !u!1 &1422362683 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 1422362682}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1422362684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422362683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eec42b6b2e0641b9aae2406f1a5a78a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PushableBlock
-  requiredPushTime: 1
-  newSprite: {fileID: 7954828373629691786, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
-  otherNewSprite: {fileID: 4963697745707916881, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
-  open_door: {fileID: 2016265731}
 --- !u!4 &1422464890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -168376,9 +168349,6 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1688419939}
-    - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1611600270}
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
@@ -168491,6 +168461,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1291062907}
+    - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1688419939}
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 989166853}
@@ -200282,11 +200255,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 155075636040786356, guid: d7e26000cad844e51a6405aeed09eec6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.24
+      value: 39.96
       objectReference: {fileID: 0}
     - target: {fileID: 155075636040786356, guid: d7e26000cad844e51a6405aeed09eec6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 58.93
+      value: 58.45
       objectReference: {fileID: 0}
     - target: {fileID: 155075636040786356, guid: d7e26000cad844e51a6405aeed09eec6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -236223,25 +236196,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
   type: west
---- !u!114 &2016265735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016265731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d292fb2a7de82544c8ed3ef04124149b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OpenDoor
-  locked: 1
-  inventory: {fileID: 687224288}
-  this_new_sprite: {fileID: 8548608813190635221, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
-  other_new_sprite: {fileID: 0}
-  other_door: {fileID: 0}
-  door_sound: {fileID: 8300000, guid: 6952c05be9882ad438ddda66a2d22a65, type: 3}
-  key_can_open: 0
 --- !u!1001 &2016343786
 PrefabInstance:
   m_ObjectHideFlags: 0

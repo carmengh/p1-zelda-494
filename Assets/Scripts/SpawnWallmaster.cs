@@ -21,6 +21,8 @@ public class SpawnWallmaster : MonoBehaviour
         GameObject collided = other.gameObject;
         if (collided.tag == "Player")
         {
+            AudioClip master_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (26)");
+            AudioSource.PlayClipAtPoint(master_sound, Camera.main.transform.position);
             wallmaster.SetActive(true);
         }
     }

@@ -8,9 +8,12 @@ public class OpenDoor : MonoBehaviour
     public Sprite other_new_sprite;
     public GameObject other_door;
     public AudioClip door_sound;
+    public bool key_can_open = true;
 
     private GameObject this_door;
     private SpriteRenderer old_sprite;
+    OpenDoor other_door_locked;
+    SpriteRenderer other_old_sprite;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,24 +28,35 @@ public class OpenDoor : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        GameObject player = collision.gameObject;
+        GameObject player = other.gameObject;
 
-        if (player.tag == "Player" && inventory.key_count > 0)
+        if (player.tag == "Player" && inventory.key_count > 0 && key_can_open)
         {
-            OpenDoor other_door_locked = other_door.GetComponent<OpenDoor>();
-            SpriteRenderer other_old_sprite = other_door.GetComponent<SpriteRenderer>();
-
-            if (locked) inventory.key_count--;
-            locked = false;
-            other_door_locked.locked = false;
-            GetComponent<BoxCollider>().enabled = false;
-            other_door.GetComponent<BoxCollider>().enabled = false;
-            old_sprite.sprite = this_new_sprite;
-            other_old_sprite.sprite = other_new_sprite;
-
-            AudioSource.PlayClipAtPoint(door_sound, Camera.main.transform.position);
+            Open();
         }
+    }
+
+    public void Open()
+    {
+        if (other_door != null)
+        {
+            other_door_locked = other_door.GetComponent<OpenDoor>();
+            other_old_sprite = other_door.GetComponent<SpriteRenderer>();
+        }
+
+        if (locked) inventory.key_count--;
+        locked = false;
+        GetComponent<BoxCollider>().enabled = false;
+        old_sprite.sprite = this_new_sprite;
+
+        if (other_door != null)
+        {
+            other_door_locked.locked = false;
+            other_door.GetComponent<BoxCollider>().enabled = false;
+            other_old_sprite.sprite = other_new_sprite;
+        }
+        AudioSource.PlayClipAtPoint(door_sound, Camera.main.transform.position);
     }
 }

@@ -68,6 +68,8 @@ public class HasHealth : MonoBehaviour
         if ((CompareTag("enemy") && shouldTakeDamage) || (CompareTag("enemy") && collided.tag == "PlayerBoomerang"))
         {
             Debug.Log("projectile hit");
+            AudioClip hit_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (8)");
+            AudioSource.PlayClipAtPoint(hit_sound, Camera.main.transform.position);
             StartCoroutine(HitStun(collided));
 
             if (health <= 0)
@@ -77,7 +79,7 @@ public class HasHealth : MonoBehaviour
             }
 
             // Destroy projectile after hit
-            if (isProjectile)
+            if (isProjectile && (collided.GetComponent<Sword>() != null && collided.GetComponent<Sword>().is_projectile))
             {
                 Destroy(collided);
             }
@@ -93,6 +95,8 @@ public class HasHealth : MonoBehaviour
         // Optional: prevent arrows from damaging the player
         if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode && (collided.tag != "player_boomerang"))
         {
+            AudioClip hit_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (10)");
+            AudioSource.PlayClipAtPoint(hit_sound, Camera.main.transform.position);
             StartCoroutine(HitStun(collided));
 
             if (health <= 0)
@@ -118,12 +122,14 @@ public class HasHealth : MonoBehaviour
         // Disable movement temporarily
         if (movement != null) movement.canMove = false;
         if (enemy_movement != null) enemy_movement.can_move = false;
+        if (GetComponent<KeeseMovement>() != null) GetComponent<KeeseMovement>().can_move = false;
 
         yield return new WaitForSeconds(1f);
 
         // Re-enable movement
         if (movement != null) movement.canMove = true;
         if (enemy_movement != null) enemy_movement.can_move = true;
+        if (GetComponent<KeeseMovement>() != null) GetComponent<KeeseMovement>().can_move = true;
 
         knocked_back = false;
         ChangeSprite();
@@ -132,6 +138,8 @@ public class HasHealth : MonoBehaviour
 
     IEnumerator Death(int sec_wait)
     {
+        AudioClip death_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (22)");
+        AudioSource.PlayClipAtPoint(death_sound, Camera.main.transform.position);
         if (movement != null)
         {
             movement.canMove = false;
