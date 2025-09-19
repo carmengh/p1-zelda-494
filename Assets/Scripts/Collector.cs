@@ -52,6 +52,13 @@ public class Collector : MonoBehaviour
             GetComponent<Inventory>().altWeapons.Add("Bomb");
             GetComponent<Inventory>().UpdateAltWeaponUI();
         }
+        if (object_collided_with.tag == "pull")
+        {
+            AudioSource.PlayClipAtPoint(weapon_sound, Camera.main.transform.position);
+            Destroy(object_collided_with);
+            GetComponent<Inventory>().altWeapons.Add("Pull Orb");
+            GetComponent<Inventory>().UpdateAltWeaponUI();
+        }
 
         // get item
         if (object_collided_with.tag == "rupee")

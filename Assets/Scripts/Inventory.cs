@@ -80,7 +80,12 @@ public class Inventory : MonoBehaviour
                 altWeapons.Add("Bomb");
                 UpdateAltWeaponUI();
             }
-        }
+
+            if (!altWeapons.Contains("Pull Orb"))
+            {
+                altWeapons.Add("Pull Orb");
+                UpdateAltWeaponUI();
+            }}
     }
     public string GetCurrentWeapon()
     {
