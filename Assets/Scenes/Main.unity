@@ -2112,13 +2112,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1661641172}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1661641171}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &15932218 stripped
 Transform:
@@ -2129,11 +2123,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 2080667367}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &16693033 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 232294035}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &17494765
 PrefabInstance:
@@ -4173,6 +4162,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 267489749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &31317323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 929145831}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &31528391
 PrefabInstance:
@@ -9176,11 +9170,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 1552747674}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &57260492 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 257742370}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &57433442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11929,6 +11918,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &73823151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1931038962}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &73891780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14227,11 +14221,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
---- !u!1 &84768397 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 1028349287}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &85237666 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -14304,11 +14293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Enabled
@@ -14424,6 +14413,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86148897}
   m_CullTransparentMesh: 1
+--- !u!1 &86280184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1024620710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &86289840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -15398,13 +15392,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2138766426}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2138766425}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &95640290 stripped
 Transform:
@@ -17454,6 +17442,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1658836303}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &107747196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 213540907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &108366244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18955,15 +18948,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1395287030}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &114845685 stripped
 Transform:
@@ -24714,9 +24705,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1352540820}
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1352540823}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &156066787
 PrefabInstance:
@@ -25213,6 +25201,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 158241418}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &158908936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 543550244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &158908939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158908936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!1001 &159365542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25343,11 +25354,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
---- !u!1 &159719249 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 316058126}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &159969098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29326,13 +29332,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1501243835}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &187880862
 PrefabInstance:
@@ -34714,10 +34718,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1207430199}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &213982076
 PrefabInstance:
@@ -37037,9 +37048,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1233105459}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1233105458}
     - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
       insertIndex: -1
@@ -37330,6 +37338,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 231234155}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &231430457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1210198821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &232294035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37402,13 +37415,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1676534665}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &232523576
 PrefabInstance:
@@ -38666,6 +38677,11 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 981794260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &239224863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 650191129}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &239261999
 PrefabInstance:
@@ -41896,10 +41912,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 852822055}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &259816294
 PrefabInstance:
@@ -46389,24 +46412,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1456970444}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &289254716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88208272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
 --- !u!114 &289254719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46996,6 +47001,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &295798436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 461680852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &295837595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -47888,24 +47898,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 316058126}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &300894249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159719249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!1001 &301055619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48185,6 +48177,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
   m_PrefabInstance: {fileID: 1820079487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &303582595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 706982531}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &303699216 stripped
 Transform:
@@ -49898,13 +49895,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 300894249}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &316592467 stripped
 Transform:
@@ -57702,6 +57697,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &367683903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 2095001662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &367700900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59796,6 +59796,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1994185986}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &379657241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1464376853}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &379878087 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -61486,6 +61491,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 650191129}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &388639114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239224863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!1001 &389250347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64301,10 +64324,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1184806132}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &414057117
 PrefabInstance:
@@ -66118,50 +66148,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &423285429 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1120636830}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &423285431
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423285429}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &423285432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423285429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
 --- !u!4 &423458999 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -67015,9 +67001,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 738163120}
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 738163123}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &429102083
 PrefabInstance:
@@ -67768,11 +67751,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &437428436 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 517802480}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &437435166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -70513,6 +70491,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 454656628}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &454752200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1137052820}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &455117548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -70588,6 +70571,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1931038962}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &455292230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73823151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!1001 &455389965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70723,11 +70724,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &456329759 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 814973355}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &456348819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70959,11 +70955,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &457076515 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 1278472942}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &457403206 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -71947,10 +71938,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1611710285}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &461700349
 PrefabInstance:
@@ -75427,6 +75425,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 552832b18aab32f4998047ee923d183d, type: 3}
+--- !u!1 &483944818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 829532706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &483955109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80832,13 +80835,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1019368423}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &518102406
 PrefabInstance:
@@ -84472,10 +84473,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1345352720}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &539148031
 PrefabInstance:
@@ -85134,10 +85142,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 158908939}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &543557043
 PrefabInstance:
@@ -86535,24 +86550,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1870317633}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &553525499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9685136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
 --- !u!114 &553525502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86651,11 +86648,6 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 2106727699}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &554671464 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1649788070}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &554962323 stripped
 Transform:
@@ -90844,13 +90836,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1324893527}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &584263219
 PrefabInstance:
@@ -92208,13 +92198,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2094710137}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &593765221
 PrefabInstance:
@@ -92777,13 +92765,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2045428476}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2045428475}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!1001 &596460411
 PrefabInstance:
@@ -96893,6 +96875,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 2095001662}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &623929265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367683903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!4 &624663721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -98844,6 +98844,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 929145831}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &635836523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31317323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!4 &635894047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -99215,10 +99233,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1456296484}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &639066647
 PrefabInstance:
@@ -99947,9 +99976,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2016265734}
     - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2016265733}
@@ -100721,13 +100747,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1868926023}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1868926022}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &646018468 stripped
 Transform:
@@ -100958,11 +100978,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 642603939}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &647765285 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 1589970275}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &648187953
 PrefabInstance:
@@ -101836,10 +101851,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 388639114}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &650571906 stripped
 Transform:
@@ -101974,13 +101996,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2132746953}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2132746952}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &652008107 stripped
 Transform:
@@ -102661,13 +102677,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1602714949}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &654935256
 PrefabInstance:
@@ -109665,15 +109679,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 909913216}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &707242995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 1298411428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &707574027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1205209400}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &707704108 stripped
 Transform:
@@ -110339,11 +110365,6 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 404978779}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &714128537 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 1710487920}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &714215871 stripped
 Transform:
@@ -111386,6 +111407,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 615545128}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &721900428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 883977290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &722282457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -111451,11 +111477,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &722294409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 503574157}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &722752644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112338,13 +112359,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1513826245}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1513826244}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &727560980 stripped
 Transform:
@@ -112657,6 +112672,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1024620710}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &730422362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86280184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!4 &730485714 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -112763,50 +112796,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &732507733 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1488238520}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &732507735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732507733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
---- !u!65 &732507736
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732507733}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &732646153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -113352,11 +113341,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &734701485 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 2105540140}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &734872811 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -114120,24 +114104,6 @@ MonoBehaviour:
   other_door: {fileID: 1352540817}
   door_sound: {fileID: 8300000, guid: 6952c05be9882ad438ddda66a2d22a65, type: 3}
   key_can_open: 1
---- !u!114 &738163123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437830479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
 --- !u!1001 &738477339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -114268,6 +114234,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &738671575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 930274101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &738671578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738671575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!1001 &738807185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -114469,6 +114458,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 95540755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &740807180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1244833831}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &740954130
 PrefabInstance:
@@ -122434,13 +122428,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1078475364}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &815090736
 PrefabInstance:
@@ -125826,6 +125818,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 827807426}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &827972482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 414040781}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &828010144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -126161,10 +126158,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1096417031}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1 &829225147 stripped
 GameObject:
@@ -126317,10 +126321,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2014917112}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &829636874 stripped
 Transform:
@@ -128968,6 +128979,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &852822052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 259659199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &852822055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852822052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!1001 &853711777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131537,24 +131571,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1884003806}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &871223879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871223876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!114 &871223882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132783,11 +132799,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &877465158 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 15390639}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &877730129 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -133707,10 +133718,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1407834357}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &884096940
 PrefabInstance:
@@ -134315,10 +134333,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2140458781}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &890629605
 PrefabInstance:
@@ -134445,10 +134470,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2041555318}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &891143927 stripped
 Transform:
@@ -135244,24 +135276,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1658027068}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &896090767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896090764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!114 &896090768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137291,6 +137305,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 706982531}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &909913216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303582595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!1001 &910217608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -138324,13 +138356,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1988577171}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1988577170}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &915784847 stripped
 Transform:
@@ -139669,10 +139695,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1810238653}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &926127309 stripped
 Transform:
@@ -140291,10 +140324,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 635836523}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &929469554
 PrefabInstance:
@@ -140571,15 +140611,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 738671578}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &930344372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1697901427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &930424139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1858380557}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &930576373
 PrefabInstance:
@@ -142038,10 +142090,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1281580733}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &937124670 stripped
 Transform:
@@ -143605,13 +143664,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1352424247}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &945820123
 PrefabInstance:
@@ -145604,45 +145661,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 1649788070}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &959690035
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554671464}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &959690036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554671464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
 --- !u!4 &959940964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
@@ -145953,7 +145971,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 6.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -145978,7 +145996,7 @@ Transform:
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.5, y: 6.5, z: -10}
+  m_LocalPosition: {x: 39.5, y: 6.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -146245,6 +146263,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 1282554067}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &962815076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1531210210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &962815079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962815076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!4 &963071519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -147083,11 +147124,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
---- !u!1 &969423373 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 915626398}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &969461834 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -147872,24 +147908,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 2105540140}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &975798129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734701485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!1001 &976264741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -148835,6 +148853,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &981311068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 2118659511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &981794260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -149042,6 +149065,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &982688141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 936852029}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &983765670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -155018,24 +155046,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 517802480}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1019368423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437428436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!4 &1019458719 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -155905,10 +155915,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 730422362}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1025898001 stripped
 Transform:
@@ -156479,13 +156500,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1446024895}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1031074003
 PrefabInstance:
@@ -161160,6 +161179,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &1054953086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 890664746}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1055199614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -163129,6 +163153,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &1063195850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1462542970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1063195853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063195850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!4 &1063485777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -164162,6 +164209,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &1070367346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1579364535}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1070367349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070367346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!1001 &1071274398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -165256,24 +165326,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 814973355}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1078475364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 456329759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!1001 &1079255532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -166995,6 +167047,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1092274666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1733284137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1092688210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -167507,6 +167564,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 2016113981}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1096417028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 829124642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1096417031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096417028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!1001 &1096657654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -167712,24 +167792,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1785197200}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1097410172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754165149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
 --- !u!114 &1097410175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172292,13 +172354,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 423285432}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 423285431}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &1120686275 stripped
 Transform:
@@ -172447,6 +172503,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1121713053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1177507400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1122204922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -173197,6 +173258,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1244833831}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1126448343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740807180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!4 &1126500958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -175081,10 +175160,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1972142822}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1137211132
 PrefabInstance:
@@ -179089,29 +179175,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
---- !u!1 &1161357973 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 1336200265}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1161357976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161357973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LeftDoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!1001 &1161952133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181378,10 +181441,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1219042176}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1177577638 stripped
 Transform:
@@ -181880,11 +181950,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &1181102176 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 2033977585}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1181590042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -182545,6 +182610,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 414040781}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1184806132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827972482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!1001 &1185041080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -186137,10 +186220,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1657753648}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1205286198 stripped
 Transform:
@@ -186569,6 +186659,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 213540907}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1207430199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107747196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!1001 &1207662462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -186975,10 +187083,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1856027170}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1210385871 stripped
 Transform:
@@ -187910,6 +188025,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1177507400}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1219042176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121713053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!1001 &1219112726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189846,24 +189979,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.5, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1233105459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685616685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!114 &1233105461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191415,10 +191530,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1126448343}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1245440146 stripped
 Transform:
@@ -191770,6 +191892,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1464376853}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1248377024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379657241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!1001 &1248423924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193964,6 +194104,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4296813262974489091, guid: 1015ce6d94e28734582514b315948441, type: 3}
   m_PrefabInstance: {fileID: 1258929180}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1259463224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1324033238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1259463227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259463224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!4 &1259539582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -194249,6 +194412,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1262404398}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1263029207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 2044272991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1263029210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263029207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!1001 &1263049401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -196908,13 +197094,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1536424466}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1278502597 stripped
 Transform:
@@ -197574,6 +197758,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 936852029}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1281580733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982688141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!1001 &1281609701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -204592,39 +204794,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1259463227}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1324646652 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 943829315}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1324893524 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 583805489}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1324893527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324893524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!1001 &1325377959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -207123,19 +207309,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1161357976}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1337153054
 PrefabInstance:
@@ -208919,6 +209103,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1345352717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 539059265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1345352720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345352717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!4 &1345555126 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -209294,29 +209501,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1344873561}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1352424244 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 945547647}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1352424247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352424244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!1001 &1352517135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -209411,24 +209595,6 @@ MonoBehaviour:
   other_door: {fileID: 437830479}
   door_sound: {fileID: 8300000, guid: 6952c05be9882ad438ddda66a2d22a65, type: 3}
   key_can_open: 1
---- !u!114 &1352540823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352540817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
 --- !u!4 &1352676767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -216189,29 +216355,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1395287027 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 114813227}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1395287030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395287027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LeftDoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!4 &1395525208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -217778,10 +217921,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940308816}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1405063377
 PrefabInstance:
@@ -218185,6 +218335,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 883977290}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1407834357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721900428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!1001 &1407936278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -222458,6 +222626,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1733284137}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1433302545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092274666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!1001 &1433488211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -225037,29 +225223,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
---- !u!1 &1446024892 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 1030605066}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1446024895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1446024892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!1001 &1446046748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -225925,6 +226088,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1450170636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 2048053970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450170639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450170636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!1001 &1450288522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -227267,6 +227453,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &1456296481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 638949936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1456296484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456296481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!4 &1456334266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -227409,9 +227618,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 289254716}
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 289254719}
@@ -227851,6 +228057,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1459591185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1753178423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1459591188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459591185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!1001 &1459738327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -228161,10 +228390,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1063195853}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1462722312 stripped
 Transform:
@@ -228534,10 +228770,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1248377024}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1465261765
 PrefabInstance:
@@ -232613,13 +232856,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 732507736}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 732507735}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!1001 &1488363060
 PrefabInstance:
@@ -235286,29 +235523,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &1501243832 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 187639150}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1501243835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501243832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!1001 &1501596921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -236873,11 +237087,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 591154968}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1511703209 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 727433301}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1511901104 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -237139,45 +237348,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 727433301}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1513826244
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511703209}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1513826245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511703209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
 --- !u!4 &1513920710 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -238152,24 +238322,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1710487920}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1522621243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714128537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!1001 &1522670861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -239028,13 +239180,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2140107143}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2140107142}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!1001 &1526946610
 PrefabInstance:
@@ -239950,10 +240096,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 962815079}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1531318959
 PrefabInstance:
@@ -240745,30 +240898,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1278472942}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1536424466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457076515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 1
-  enemies:
-  - {fileID: 57260492}
-  - {fileID: 1832780792}
-  - {fileID: 722294409}
-  - {fileID: 1987940172}
-  - {fileID: 84768397}
-  - {fileID: 647765285}
-  door_close: {fileID: 896090764}
-  close_sprite: {fileID: -6156567986236837295, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
-  type: west
 --- !u!4 &1536541935 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -245702,13 +245831,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2138708054}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1562906692 stripped
 Transform:
@@ -246580,13 +246707,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2007456730}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2007456729}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &1568838700 stripped
 Transform:
@@ -247799,10 +247920,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1070367349}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1579569604 stripped
 Transform:
@@ -248460,13 +248588,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1714973602}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1714973601}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!1001 &1582045359
 PrefabInstance:
@@ -251436,29 +251558,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1821454022}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1602714946 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 654888635}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1602714949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602714946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!1001 &1602766113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -252474,6 +252573,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 461680852}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1611710285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295798436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!4 &1611767166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -254660,11 +254777,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 881bd159989955e4b9eef9715127165e, type: 3}
---- !u!1 &1622886642 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 593451078}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1623513856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -257498,6 +257610,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 2118659511}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641439216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981311068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!4 &1641592097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -258375,6 +258505,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1648587209 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1965398217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1648587212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648587209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!1001 &1649077874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -258573,13 +258726,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 959690036}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 959690035}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!1001 &1649837325
 PrefabInstance:
@@ -259652,6 +259799,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1205209400}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1657753648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707574027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!1001 &1657774771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -259784,7 +259949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Enabled
@@ -259798,9 +259963,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 896090767}
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 896090768}
@@ -260461,45 +260623,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 15390639}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1661641171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877465158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
---- !u!65 &1661641172
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877465158}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.7052841, z: 0.2}
-  m_Center: {x: 0, y: -0.14735794, z: 0}
 --- !u!1001 &1661910729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -263388,24 +263511,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 232294035}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1676534665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16693033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RightDoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!1001 &1676649498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -268010,11 +268115,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &1704776502 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 651793547}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1705506203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -268727,19 +268827,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1522621243}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1710614332 stripped
 Transform:
@@ -269408,50 +269506,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1714965443}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1714973599 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1581407980}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1714973601
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714973599}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.6951561, z: 0.2}
-  m_Center: {x: 0, y: -0.15242195, z: 0}
---- !u!114 &1714973602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714973599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
 --- !u!1001 &1715062434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -272261,10 +272315,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1433302545}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1733699181 stripped
 Transform:
@@ -275144,10 +275209,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1459591188}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1754051273 stripped
 Transform:
@@ -275854,6 +275926,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &1756164177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1795978457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1756164180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756164177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!1001 &1756846117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -275916,11 +276011,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Enabled
@@ -277098,13 +277193,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1840291988}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1840291987}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!1001 &1767065149
 PrefabInstance:
@@ -278189,50 +278278,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 1098015890}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1776824069 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1801214383}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1776824071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776824069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
---- !u!65 &1776824072
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776824069}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1776980578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -279523,9 +279568,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1097410172}
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1097410175}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1785816518
@@ -280252,24 +280294,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1879111776}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1788733424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396684068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
 --- !u!114 &1788733427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281252,10 +281276,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1756164180}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1796070560
 PrefabInstance:
@@ -281407,45 +281438,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 2033977585}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1798025816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181102176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 0}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: 
---- !u!65 &1798025817
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181102176}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1798274293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -281902,13 +281894,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1776824072}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1776824071}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!4 &1801222927 stripped
 Transform:
@@ -282407,11 +282393,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
---- !u!1 &1803547765 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 596201359}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1804190795 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -282612,10 +282593,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2103882849}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1805885560
 PrefabInstance:
@@ -283024,6 +283012,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1281273983}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1810238650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 925863638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1810238653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810238650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: south
 --- !u!1001 &1810301286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -286981,11 +286992,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 625993962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1832780792 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 1754996275}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1833045452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -287873,50 +287879,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
---- !u!1 &1840291985 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1766713681}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1840291987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840291985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
---- !u!65 &1840291988
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840291985}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1840561503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -290932,6 +290894,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1210198821}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1856027170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231430457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: soth
 --- !u!1001 &1856231593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -291478,10 +291458,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1966462684}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1858434129 stripped
 Transform:
@@ -292554,50 +292541,6 @@ MonoBehaviour:
   door_close: {fileID: 0}
   close_sprite: {fileID: 0}
   type: west
---- !u!1 &1868926020 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 645943546}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1868926022
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868926020}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1868926023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868926020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
 --- !u!1001 &1869107401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -292867,9 +292810,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 553525499}
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 553525502}
@@ -294238,9 +294178,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1788733424}
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1788733427}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1879293610 stripped
@@ -294766,15 +294703,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.x
-      value: 0.60318375
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Center.x
-      value: -0.19840813
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
@@ -294784,9 +294721,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 871223879}
     - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 871223882}
@@ -295113,11 +295047,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 625993962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1886155033 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-  m_PrefabInstance: {fileID: 1562755277}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1886711721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -299167,10 +299096,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1918401991}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1914053750 stripped
 Transform:
@@ -299597,6 +299533,29 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1918401988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1914037558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1918401991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918401988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: north
 --- !u!1001 &1918429706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -301313,10 +301272,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 455292230}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1931190044 stripped
 Transform:
@@ -303008,6 +302974,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1940239886}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1940308813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1404844570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1940308816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940308813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!4 &1941156352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -307199,10 +307188,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1648587212}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &1965500589 stripped
 Transform:
@@ -307219,6 +307215,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1858380557}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1966462684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930424139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!4 &1966715252 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -307806,6 +307820,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1137052820}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1972142822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454752200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!4 &1972183203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -310059,55 +310091,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
   m_PrefabInstance: {fileID: 520332677}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1987940172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
-  m_PrefabInstance: {fileID: 2021362176}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1988577168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 915626398}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1988577170
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969423373}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.78614044, z: 0.2}
-  m_Center: {x: 0, y: -0.10692978, z: 0}
---- !u!114 &1988577171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969423373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
 --- !u!1001 &1988763661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -313630,50 +313618,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 75947965}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2007456727 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1568600648}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2007456729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007456727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
---- !u!65 &2007456730
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007456727}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.74030304, z: 0.2}
-  m_Center: {x: 0, y: -0.12984848, z: 0}
 --- !u!4 &2007514023 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -314641,6 +314585,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 829532706}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2014917112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483944818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!1001 &2014963162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -314890,24 +314852,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.5, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2016265734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016265731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: west
 --- !u!114 &2016265735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317533,13 +317477,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1798025817}
-    - targetCorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1798025816}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
 --- !u!1001 &2034147358
 PrefabInstance:
@@ -318586,6 +318524,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 890664746}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041555318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054953086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: west
 --- !u!4 &2041950568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -318923,10 +318879,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1263029210}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &2044416461
 PrefabInstance:
@@ -319008,45 +318975,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 596201359}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2045428475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803547765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: north
---- !u!65 &2045428476
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803547765}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2045830542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -319322,10 +319250,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1450170639}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &2048160979 stripped
 Transform:
@@ -327896,24 +327831,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 593451078}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2094710137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622886642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
 --- !u!4 &2094786573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
@@ -327979,10 +327896,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 623929265}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!4 &2095257912 stripped
 Transform:
@@ -329154,6 +329078,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 306587131}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2103882846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1805875954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2103882849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103882846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
+  cameraController: {fileID: 961739755}
+  lock_room: 0
+  enemies: []
+  door_close: {fileID: 0}
+  close_sprite: {fileID: 0}
+  type: east
 --- !u!1001 &2104080235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -329422,13 +329369,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 975798129}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &2105769388
 PrefabInstance:
@@ -331464,10 +331409,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1641439216}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &2119058601
 PrefabInstance:
@@ -333310,45 +333262,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 651793547}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &2132746952
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704776502}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2132746953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704776502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
 --- !u!1001 &2132754250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -334639,68 +334552,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1562755277}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2138708054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886155033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: east
---- !u!1 &2138766423 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 95540755}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2138766425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2138766423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
-  cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
-  type: south
---- !u!65 &2138766426
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2138766423}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5, y: 0.5, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2138795049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -335083,18 +334934,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
---- !u!1 &2140107140 stripped
+--- !u!1 &2140458778 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3746682385991946083, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
-  m_PrefabInstance: {fileID: 1526884851}
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 890596650}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2140107142
+--- !u!114 &2140458781
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140107140}
+  m_GameObject: {fileID: 2140458778}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84a4edb9a90524f26b790840f91fd3e9, type: 3}
@@ -335105,28 +334956,7 @@ MonoBehaviour:
   enemies: []
   door_close: {fileID: 0}
   close_sprite: {fileID: 0}
-  type: north
---- !u!65 &2140107143
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140107140}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  type: west
 --- !u!4 &2140486553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}

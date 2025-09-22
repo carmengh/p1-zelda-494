@@ -33,8 +33,17 @@ public class Inventory : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            SetWindowedResolution.God_Mode=true;
-            GodMode();
+            if (!SetWindowedResolution.God_Mode)
+            {
+                SetWindowedResolution.God_Mode=true;
+                GodMode();
+            }
+            else
+            {
+                SetWindowedResolution.God_Mode = false;
+            }
+           
+            
         }
     }
     public void UpdateAltWeaponUI()
