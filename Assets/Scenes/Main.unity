@@ -14762,6 +14762,8 @@ MonoBehaviour:
   targetBlocks:
   - {fileID: 1468842055}
   - {fileID: 153686158}
+  - {fileID: 1102545065}
+  - {fileID: 1563479232}
   newSprite: {fileID: 7954828373629691786, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
 --- !u!1001 &90534875
 PrefabInstance:
@@ -168907,6 +168909,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 1764406161}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1102545065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 223685000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1102684982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -246048,6 +246055,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1563479232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1900049780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1564303489
 PrefabInstance:
   m_ObjectHideFlags: 0
