@@ -25,6 +25,7 @@ public class PullOrb : MonoBehaviour
             }
 
             other.transform.position = targetPosition;
+            Debug.Log(targetPosition);
         }
 
         Destroy(gameObject);
