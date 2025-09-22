@@ -12,6 +12,8 @@ public class Projectile : MonoBehaviour
     public GameObject boomerangPrefab;
     public GameObject bombPrefab;
     public GameObject explosionPrefab;
+    public GameObject pullOrbPrefab;
+
     
     public GetSprites zelda;
     public GameObject projectile;
@@ -106,10 +108,31 @@ public class Projectile : MonoBehaviour
         {
             StartCoroutine(DropBomb());
         }
+        else if (currentWeapon == "Pull Orb")
+        {
+            if (pullOrbPrefab == null)
+            {
+                Debug.LogError("Pull Orb prefab not assigned!");
+                return;
+            }
+
+            projectile_made = true;
+
+            Vector3 direction = GetFacingDirection();
+            Vector3 spawnPosition = transform.position + direction;
+
+            projectile = Instantiate(pullOrbPrefab, spawnPosition, Quaternion.identity);
+
+            Debug.Log("Pull Orb created at: " + projectile.transform.position);
+            GetComponent<Movement>().canMove = false;
+
+            StartCoroutine(Move(direction));
+        }
         else
         {
             Debug.Log("Alt weapon not supported yet: " + currentWeapon);
         }
+        
     }
 
     IEnumerator DropBomb()

@@ -51,10 +51,6 @@ public class DoorTrigger : MonoBehaviour
         {
             door_locked = door.locked;
         }
-
-        Debug.Log("has activated: " + hasActivated);
-        Debug.Log("other tag: " + player.tag);
-        Debug.Log("door locked: " + door_locked);
         if (!hasActivated && player.CompareTag("Player") && !door_locked)
         {
             Debug.Log("trigger");

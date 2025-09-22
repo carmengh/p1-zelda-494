@@ -40,20 +40,11 @@ public class Boomerang : MonoBehaviour
 
         if (returning)
         {
-            Debug.Log("returning");
             Vector3 toOrigin = (originTransform.position - transform.position).normalized;
             transform.position += toOrigin * speed;
 
             if (Vector3.Distance(transform.position, originTransform.position) < 0.3f)
             {
-                // Notify Goriya
-                //var enemy = originTransform.GetComponent<EnemyMovement>();
-                //if (enemy != null)
-                //{
-                //    enemy.OnBoomerangReturn();
-                //}
-
-                // Notify player
                 var proj = originTransform.GetComponent<Projectile>();
                 if (proj != null)
                 {
@@ -104,7 +95,6 @@ public class Boomerang : MonoBehaviour
             yield return new WaitForSeconds(spinFrameRate);
             currentFrame = (currentFrame + 1) % spinSprites.Length;
             sr.sprite = spinSprites[currentFrame];
-            Debug.Log("boomerang sprite: " + sr.sprite);
         }
     }
 }
