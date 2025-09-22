@@ -27,6 +27,37 @@ public class PullOrb : MonoBehaviour
             other.transform.position = targetPosition;
             Debug.Log(targetPosition);
         }
+        if (other.CompareTag("enemy"))
+        {
+            Vector3 directionToPlayer = (casterTransform.position - other.transform.position).normalized;
+            Vector3 pullDirection = GetOneUnitDirection(directionToPlayer);
+            
+            Vector3 pullTargetPosition = casterTransform.position - pullDirection;
+
+
+            Collider[] colliders = Physics.OverlapBox(pullTargetPosition, Vector3.one * 0.4f);
+            bool blocked = false;
+
+            foreach (Collider col in colliders)
+            {
+                if (!col.isTrigger && col.gameObject != other.gameObject)
+                {
+                    blocked = true;
+                    break;
+                }
+            }
+
+            if (!blocked)
+            {
+                other.transform.position = pullTargetPosition;
+                Debug.Log("Enemy pulled to: " + pullTargetPosition);
+            }
+            else
+            {
+                Debug.Log("Pull target blocked — enemy not moved.");
+            }
+        }
+
 
         Destroy(gameObject);
     }
