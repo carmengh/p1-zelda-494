@@ -22,6 +22,12 @@ public class PullOrb : MonoBehaviour
                     Destroy(gameObject);
                     return;
                 }
+                if (col.CompareTag("Player"))
+                {
+                    Debug.Log("Target tile is occupied by the player — block will not move.");
+                    Destroy(gameObject);
+                    return;
+                }
             }
 
             other.transform.position = targetPosition;
