@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6677315330027149951}
   - component: {fileID: 5596571172405570088}
   - component: {fileID: 6627393652010670155}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: GoriyaBoomerang
   m_TagString: GoriyaBoomerang
   m_Icon: {fileID: 0}

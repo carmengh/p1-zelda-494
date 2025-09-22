@@ -67,7 +67,7 @@ public class WallMaster : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         GameObject collided = other.gameObject;
-        if (collided.tag == "Player" && !SetWindowedResolution.God_Mode)
+        if (collided.tag == "Player" && !SetWindowedResolution.God_Mode && collided.GetComponent<Movement>().canMove)
         {
             grabbed = true;
             collided.GetComponent<Movement>().canMove = false;

@@ -51,6 +51,7 @@ MonoBehaviour:
   zelda: {fileID: 0}
   swing_time: 1
   is_projectile: 0
+  swinging: 0
 --- !u!54 &872347973067876830
 Rigidbody:
   m_ObjectHideFlags: 0

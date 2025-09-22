@@ -89,8 +89,9 @@ public class HasHealth : MonoBehaviour
             GetComponent<DropItem>()?.Drop();
         }
 
+        bool isEnemyProjectile = (collided.layer == 12);
         // Optional: prevent arrows from damaging the player
-        if (CompareTag("Player") && isProjectile && !SetWindowedResolution.God_Mode && (collided.tag != "PlayerBoomerang"))
+        if (CompareTag("Player") && isEnemyProjectile && !SetWindowedResolution.God_Mode)
         {
             AudioClip hit_sound = Resources.Load<AudioClip>("Zelda/Audio/Sound Effect (10)");
             AudioSource.PlayClipAtPoint(hit_sound, Camera.main.transform.position);
