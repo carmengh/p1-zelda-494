@@ -30,7 +30,7 @@ public class MoveCamera : MonoBehaviour
         Vector3 target_pos = new Vector3(transform.position.x+16, transform.position.y, -10);
         
         Vector3 player_pos = player.position;
-        Vector3 player_final = player_pos+new Vector3(3,0,0);
+        Vector3 player_final = player_pos+new Vector3(4,0,0);
         
         yield return StartCoroutine(CoroutineUtilities.MoveTwoObjectsOverTime(transform, 
             initial_pos, target_pos,player,player_pos, player_final,2.5f));
@@ -46,7 +46,7 @@ public class MoveCamera : MonoBehaviour
         Vector3 target_pos = new Vector3(transform.position.x-16, transform.position.y, -10);
         
         Vector3 player_pos = player.position;
-        Vector3 player_final = player_pos+new Vector3(-3,0,0);
+        Vector3 player_final = player_pos+new Vector3(-4,0,0);
         
         yield return StartCoroutine(CoroutineUtilities.MoveTwoObjectsOverTime(transform, 
             initial_pos, target_pos,player,player_pos, player_final,2.5f));
@@ -60,7 +60,7 @@ public class MoveCamera : MonoBehaviour
         Vector3 target_pos = new Vector3(transform.position.x, transform.position.y+11, -10);
         
         Vector3 player_pos = player.position;
-        Vector3 player_final = player_pos+new Vector3(0,3,0);
+        Vector3 player_final = player_pos+new Vector3(0,4,0);
         
         yield return StartCoroutine(CoroutineUtilities.MoveTwoObjectsOverTime(transform, 
             initial_pos, target_pos,player,player_pos, player_final,2.5f));
@@ -74,7 +74,7 @@ public class MoveCamera : MonoBehaviour
         Vector3 target_pos = new Vector3(transform.position.x, transform.position.y-11, -10);
         
         Vector3 player_pos = player.position;
-        Vector3 player_final = player_pos+new Vector3(0,-3,0);
+        Vector3 player_final = player_pos+new Vector3(0,-4,0);
         
         yield return StartCoroutine(CoroutineUtilities.MoveTwoObjectsOverTime(transform, 
             initial_pos, target_pos,player,player_pos, player_final,2.5f));
