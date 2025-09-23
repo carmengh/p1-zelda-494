@@ -35367,11 +35367,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 216538297}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &216781957 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7883751536673659517, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-  m_PrefabInstance: {fileID: 1989324156729880558}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &216891135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107299,7 +107294,7 @@ MonoBehaviour:
   boomerangPrefab: {fileID: 6057155380218807661, guid: 9fad0b1aa88b6445dbab330d29f7aa3e, type: 3}
   bombPrefab: {fileID: 8155991889011765512, guid: 5725c8120dc629a4698701914151eb71, type: 3}
   explosionPrefab: {fileID: 6998312003960495860, guid: 6f393c9708f90cd4f9988c3c35449495, type: 3}
-  pullOrbPrefab: {fileID: 216781957}
+  pullOrbPrefab: {fileID: 0}
   zelda: {fileID: 1902036326}
   projectile: {fileID: 0}
   sword: {fileID: 659437283}
@@ -336746,71 +336741,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e271a90b14c30b48997b04a4af8430c, type: 3}
---- !u!1001 &1989324156729880558
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5782853218543671489, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: casterTransform
-      value: 
-      objectReference: {fileID: 687224283}
-    - target: {fileID: 7883751536673659517, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_Name
-      value: pullOrb
-      objectReference: {fileID: 0}
-    - target: {fileID: 7883751536673659517, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 80.0549
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 103.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141011582768819336, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7788464507f75426ab1af93ea02250b6, type: 3}
 --- !u!1001 &4133346295251210500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -336945,6 +336875,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 687224281}
+    - target: {fileID: 6710075915881736527, guid: 79b1cf6cba76860458760591097777bd, type: 3}
+      propertyPath: swing_time
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7113516090794478887, guid: 79b1cf6cba76860458760591097777bd, type: 3}
       propertyPath: m_Name
       value: Sword
@@ -337358,7 +337292,6 @@ SceneRoots:
   - {fileID: 457714933}
   - {fileID: 1970676164}
   - {fileID: 839249668}
-  - {fileID: 1989324156729880558}
   - {fileID: 609325224}
   - {fileID: 530577723}
   - {fileID: 567668446}

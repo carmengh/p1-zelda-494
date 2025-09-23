@@ -27,6 +27,7 @@ public class Sword : MonoBehaviour
         if (!swinging && !is_projectile)
         {
             rb.transform.position = player.GetComponent<Rigidbody>().position;
+            if (GetComponent<BoxCollider>().enabled) GetComponent<BoxCollider>().enabled = false;
         }
 
         Melee();  // check if you can melee instead of use projectile
@@ -40,6 +41,7 @@ public class Sword : MonoBehaviour
             {
                 Debug.Log("not projectile");
                 swinging = true;
+                GetComponent<BoxCollider>().enabled = true;
                 player.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
                 player.GetComponent<Movement>().canMove = false;
                 StartCoroutine(SwingDirection(1));
@@ -51,46 +53,48 @@ public class Sword : MonoBehaviour
     {
         SpriteRenderer player_render = player.GetComponent<SpriteRenderer>();
         Sprite player_direction = player_render.sprite;
+        Vector3 swing_direction;
+        Vector3 old_position = transform.position;
 
         // make swing direction based on which way link sprite is facing
         if (player_direction == zelda.sprites[0] || player_direction == zelda.sprites[12] || player_direction == zelda.sprites[24])
         {
             // down
+            swing_direction = transform.up * -1;
             player_render.sprite = zelda.sprites[36];
-            rb.linearVelocity = new Vector2(0, -1); // move sword sprite down
+            rb.transform.position = old_position + swing_direction; // move sword sprite down
             yield return new WaitForSeconds(swing_time);
-            rb.linearVelocity = new Vector2(0, 1); // move sword back to player
-            yield return new WaitForSeconds(swing_time);
+            rb.transform.position = old_position; // move sword back to player
             player_render.sprite = zelda.sprites[0];
         }
         if (player_direction == zelda.sprites[1] || player_direction == zelda.sprites[13] || player_direction == zelda.sprites[25])
         {
             // left
+            swing_direction = transform.right * -1;
             player_render.sprite = zelda.sprites[37];
-            rb.linearVelocity = new Vector2(-1, 0); // move sword sprite left
+            rb.transform.position = old_position + swing_direction; // move sword sprite left
             yield return new WaitForSeconds(swing_time);
-            rb.linearVelocity = new Vector2(1, 0); // move sword back to player
-            yield return new WaitForSeconds(swing_time);
+            rb.transform.position = old_position; // move sword back to player
             player_render.sprite = zelda.sprites[1];
         }
         if (player_direction == zelda.sprites[2] || player_direction == zelda.sprites[14] || player_direction == zelda.sprites[26])
         {
             // up
+            swing_direction = transform.up;
             player_render.sprite = zelda.sprites[38];
-            rb.linearVelocity = new Vector2(0, 1);  // move sword sprite up
+            rb.transform.position = old_position + swing_direction;  // move sword sprite up
             yield return new WaitForSeconds(swing_time);
-            rb.linearVelocity = new Vector2(0, -1); // move sword back to player
-            yield return new WaitForSeconds(swing_time);
+            rb.transform.position = old_position; // move sword back to player
             player_render.sprite = zelda.sprites[2];
         }
         if (player_direction == zelda.sprites[3] || player_direction == zelda.sprites[15] || player_direction == zelda.sprites[27])
         {
             // right
+            swing_direction = transform.right;
             player_render.sprite = zelda.sprites[39];
-            rb.linearVelocity = new Vector2(1, 0);  // move sword sprite right
+            rb.transform.position = old_position + swing_direction;  // move sword sprite right
             yield return new WaitForSeconds(swing_time);
-            rb.linearVelocity = new Vector2(-1, 0); // move sword back to player
-            yield return new WaitForSeconds(swing_time);
+            rb.transform.position = old_position; // move sword back to player
             player_render.sprite = zelda.sprites[3];
         }
 

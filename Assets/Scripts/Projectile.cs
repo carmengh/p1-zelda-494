@@ -51,6 +51,7 @@ public class Projectile : MonoBehaviour
             projectile_made = true;
             projectile = Instantiate(prefab, transform.position, transform.rotation);
             projectile.GetComponent<Sword>().is_projectile = true;
+            if (!projectile.GetComponent<BoxCollider>().enabled) projectile.GetComponent<BoxCollider>().enabled = true;
             Debug.Log("Firing Sword Beam");
             GetComponent<Movement>().canMove = false;
 

@@ -108,7 +108,7 @@ public class HasHealth : MonoBehaviour
 
     IEnumerator HitStun(GameObject collided)
     {
-        ChangeSprite();
+        StartCoroutine(ChangeSprite());
         health--;
         can_hit = false;
 
@@ -130,7 +130,7 @@ public class HasHealth : MonoBehaviour
         if (GetComponent<KeeseMovement>() != null) GetComponent<KeeseMovement>().can_move = true;
 
         knocked_back = false;
-        ChangeSprite();
+        StartCoroutine(ChangeSprite());
         can_hit = true;
     }
 
@@ -147,28 +147,43 @@ public class HasHealth : MonoBehaviour
         SceneManager.LoadScene("Main");
     }
 
-    void ChangeSprite()
+    IEnumerator ChangeSprite()
     {
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer == null || zelda == null || zelda.sprites.Length < 8)
         {
             Debug.LogWarning("Missing SpriteRenderer or Zelda sprites on " + gameObject.name);
-            return;
+            yield return null;
         }
 
-        Sprite current = spriteRenderer.sprite;
+        Debug.Log("sprite color: " + spriteRenderer.color);
+        Debug.Log("white: " + Color.white);
+        if (spriteRenderer.color == Color.white)
+        {
+            Debug.Log("change to red");
+            spriteRenderer.color = Color.red;
+        }
+        else if (spriteRenderer.color == Color.red)
+        {
+            Debug.Log("change to white");
+            spriteRenderer.color = Color.white;
+        }
 
-        // Change to "hit" sprite
-        if (current == zelda.sprites[0]) spriteRenderer.sprite = zelda.sprites[4]; // down
-        else if (current == zelda.sprites[1]) spriteRenderer.sprite = zelda.sprites[5]; // left
-        else if (current == zelda.sprites[2]) spriteRenderer.sprite = zelda.sprites[6]; // up
-        else if (current == zelda.sprites[3]) spriteRenderer.sprite = zelda.sprites[7]; // right
+        yield return new WaitForSeconds(1);
 
-        // Restore after hit
-        else if (current == zelda.sprites[4]) spriteRenderer.sprite = zelda.sprites[0];
-        else if (current == zelda.sprites[5]) spriteRenderer.sprite = zelda.sprites[1];
-        else if (current == zelda.sprites[6]) spriteRenderer.sprite = zelda.sprites[2];
-        else if (current == zelda.sprites[7]) spriteRenderer.sprite = zelda.sprites[3];
+        //Sprite current = spriteRenderer.sprite;
+
+        //// Change to "hit" sprite
+        //if (current == zelda.sprites[0]) spriteRenderer.sprite = zelda.sprites[4]; // down
+        //else if (current == zelda.sprites[1]) spriteRenderer.sprite = zelda.sprites[5]; // left
+        //else if (current == zelda.sprites[2]) spriteRenderer.sprite = zelda.sprites[6]; // up
+        //else if (current == zelda.sprites[3]) spriteRenderer.sprite = zelda.sprites[7]; // right
+
+        //// Restore after hit
+        //else if (current == zelda.sprites[4]) spriteRenderer.sprite = zelda.sprites[0];
+        //else if (current == zelda.sprites[5]) spriteRenderer.sprite = zelda.sprites[1];
+        //else if (current == zelda.sprites[6]) spriteRenderer.sprite = zelda.sprites[2];
+        //else if (current == zelda.sprites[7]) spriteRenderer.sprite = zelda.sprites[3];
     }
 
 }
