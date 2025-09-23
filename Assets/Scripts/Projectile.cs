@@ -90,7 +90,7 @@ public class Projectile : MonoBehaviour
             Debug.Log("Firing Arrow");
             GetComponent<Movement>().canMove = false;
 
-            StartCoroutine(ShootWithoutPlayerAnimation(121, 122, 130, 131));
+            StartCoroutine(ShootWithoutPlayerAnimation(122, 121, 131, 130));
         }
         else if (currentWeapon == "Boomerang")
         {
