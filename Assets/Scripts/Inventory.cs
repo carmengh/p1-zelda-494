@@ -11,6 +11,7 @@ public class Inventory : MonoBehaviour
     private int current_wep = 0;
     public Text altWeaponText;
     public int bomb_count = 0;
+    public HasHealth player;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -72,6 +73,7 @@ public class Inventory : MonoBehaviour
     {
         if (SetWindowedResolution.God_Mode)
         {
+            player.health = 3;
             rupee_count += 1000;
             bomb_count += 1000;
             key_count+= 1000;

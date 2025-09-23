@@ -107346,6 +107346,7 @@ MonoBehaviour:
   altWeapons: []
   altWeaponText: {fileID: 266284412}
   bomb_count: 0
+  player: {fileID: 687224289}
 --- !u!114 &687224289
 MonoBehaviour:
   m_ObjectHideFlags: 0
