@@ -82,6 +82,7 @@ public class DoorTrigger : MonoBehaviour
             hasActivated = false;
             if (lock_room)
             {
+                door_close.GetComponent<Collider>().enabled = true;
                 door_close.GetComponent<OpenDoor>().locked = true;
                 door_close.GetComponent<SpriteRenderer>().sprite = close_sprite;
             }

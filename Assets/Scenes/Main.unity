@@ -62216,6 +62216,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 295368725}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &395690050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
+  m_PrefabInstance: {fileID: 257742370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &395796815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88998,6 +89003,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
+--- !u!1 &568412851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
+  m_PrefabInstance: {fileID: 503574157}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &568580013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130235,6 +130245,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 972616067323354019, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
   m_PrefabInstance: {fileID: 862529664}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &862570448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
+  m_PrefabInstance: {fileID: 1028349287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &862932818 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -156755,7 +156770,13 @@ PrefabInstance:
     - {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1413035918}
+    - targetCorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1413035919}
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
 --- !u!1001 &1031074003
 PrefabInstance:
@@ -158804,6 +158825,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 196026549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1039869115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
+  m_PrefabInstance: {fileID: 2021362176}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1040209022
 PrefabInstance:
@@ -180851,6 +180877,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1172430475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
+  m_PrefabInstance: {fileID: 1589970275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1173401824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -194706,10 +194737,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
+  lock_room: 1
+  enemies:
+  - {fileID: 604622957}
+  door_close: {fileID: 1413035916}
+  close_sprite: {fileID: -6156567986236837295, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
   type: north
 --- !u!1001 &1263049401
 PrefabInstance:
@@ -198063,10 +198095,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
+  lock_room: 1
+  enemies:
+  - {fileID: 395690050}
+  - {fileID: 1790954882}
+  - {fileID: 568412851}
+  - {fileID: 1039869115}
+  - {fileID: 862570448}
+  - {fileID: 1172430475}
+  door_close: {fileID: 896090764}
+  close_sprite: {fileID: -6156567986236837295, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
   type: west
 --- !u!1001 &1281609701
 PrefabInstance:
@@ -219810,6 +219848,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
   m_PrefabInstance: {fileID: 274189305}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1413035916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+  m_PrefabInstance: {fileID: 1030605066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1413035918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413035916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d292fb2a7de82544c8ed3ef04124149b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OpenDoor
+  locked: 0
+  inventory: {fileID: 687224288}
+  this_new_sprite: {fileID: 8548608813190635221, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
+  other_new_sprite: {fileID: 0}
+  other_door: {fileID: 0}
+  door_sound: {fileID: 8300000, guid: 6952c05be9882ad438ddda66a2d22a65, type: 3}
+  key_can_open: 0
+--- !u!65 &1413035919
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413035916}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1413813763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -223101,10 +223184,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorTrigger
   cameraController: {fileID: 961739755}
-  lock_room: 0
-  enemies: []
-  door_close: {fileID: 0}
-  close_sprite: {fileID: 0}
+  lock_room: 1
+  enemies:
+  - {fileID: 604622957}
+  door_close: {fileID: 1413035916}
+  close_sprite: {fileID: -6156567986236837295, guid: 800761bdf646e684db2033b0d0f7d020, type: 3}
   type: north
 --- !u!1001 &1433488211
 PrefabInstance:
@@ -260547,11 +260631,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -281447,6 +281531,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
+--- !u!1 &1790954882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6177741596214277080, guid: ff7b55b96e2cb4e419e570c6c69eadba, type: 3}
+  m_PrefabInstance: {fileID: 1754996275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1791680308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2365162584154390149, guid: 2ee7ed22a9dbefc41b7b6b5ff3c30bd0, type: 3}
@@ -289934,6 +290023,9 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 724400815}
+    - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1988577168}
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
@@ -290292,9 +290384,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1086743028}
-    - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 724400815}
     - targetCorrespondingSourceObject: {fileID: 1263779683251312622, guid: c7d2a7a987307a44d879475c8f6bf9e2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 859982006}
