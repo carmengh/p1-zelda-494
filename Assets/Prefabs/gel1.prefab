@@ -104,7 +104,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5629998433201937564}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -180,10 +180,7 @@ MonoBehaviour:
   can_move: 1
   enemyType: gel
   goriyaSprites: {fileID: 0}
-  boomerangPrefab: {fileID: 0}
-  spinSprites: []
-  fireInterval: 3
-  cooldownAfterReturn: 1.5
+  lastDirection: {x: 0, y: -1, z: 0}
 --- !u!114 &1656636860826337548
 MonoBehaviour:
   m_ObjectHideFlags: 0

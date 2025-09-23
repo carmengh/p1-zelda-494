@@ -109,9 +109,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   speed: 1
   moveInterval: 2
-  pauseInterval: 15
   can_move: 1
-  change_speed: 0
+  enemyType: 
+  goriyaSprites: {fileID: 0}
+  lastDirection: {x: 0, y: -1, z: 0}
 --- !u!54 &7135788563796585773
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -120,7 +121,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7544663145570094898}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -193,6 +194,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   heart: {fileID: 5577941154099887948, guid: 02e61348435d8254d8b162a554761e19, type: 3}
   rupee: {fileID: 5418155383407606646, guid: 6176d93e56edef54594863a57de09409, type: 3}
-  key: {fileID: 937831252983600732, guid: 8cf3810fcdb845f4198b80d045551a8d, type: 3}
-  has_key: 0
+  bomb: {fileID: 0}
+  holding: {fileID: 0}
   drop_rate: 0.5

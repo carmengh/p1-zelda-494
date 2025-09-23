@@ -113,8 +113,20 @@ public class HasHealth : MonoBehaviour
         can_hit = false;
 
         // Knockback
-        Vector3 knockback = (rb.position - collided.transform.position).normalized;
-        rb.AddForce(force * knockback, ForceMode.Impulse);
+        Vector3 direction = (rb.position - collided.transform.position);
+        
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            direction = new Vector3(Mathf.Sign(direction.x), 0, 0);
+        }
+        else
+        {
+            direction = new Vector3(0, Mathf.Sign(direction.y), 0);
+        }
+
+        // Apply knockback
+        rb.linearVelocity = Vector3.zero; // Reset current velocity
+        rb.AddForce(force * direction, ForceMode.Impulse);
         knocked_back = true;
 
         // Disable movement temporarily
