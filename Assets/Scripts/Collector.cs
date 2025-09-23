@@ -51,6 +51,7 @@ public class Collector : MonoBehaviour
             Destroy(object_collided_with);
             GetComponent<Inventory>().altWeapons.Add("Bomb");
             GetComponent<Inventory>().UpdateAltWeaponUI();
+            GetComponent<Inventory>().bomb_count += 4;
         }
         if (object_collided_with.tag == "pull")
         {

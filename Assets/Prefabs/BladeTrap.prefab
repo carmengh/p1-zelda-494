@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5793526022329229774}
   - component: {fileID: 5852145837332726969}
   - component: {fileID: 7680175596280717198}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BladeTrap
   m_TagString: enemy
   m_Icon: {fileID: 0}

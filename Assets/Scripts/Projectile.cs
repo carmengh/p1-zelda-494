@@ -107,7 +107,7 @@ public class Projectile : MonoBehaviour
         }
         else if (currentWeapon == "Bomb")
         {
-            StartCoroutine(DropBomb());
+            if (GetComponent<Inventory>().bomb_count > 0 || SetWindowedResolution.God_Mode) StartCoroutine(DropBomb());
         }
         else if (currentWeapon == "Pull Orb")
         {
@@ -123,6 +123,7 @@ public class Projectile : MonoBehaviour
             Vector3 spawnPosition = transform.position + direction;
 
             projectile = Instantiate(pullOrbPrefab, spawnPosition, Quaternion.identity);
+            projectile.GetComponent<PullOrb>().player = gameObject;
 
             Debug.Log("Pull Orb created at: " + projectile.transform.position);
             GetComponent<Movement>().canMove = false;
@@ -140,6 +141,7 @@ public class Projectile : MonoBehaviour
     {
         Vector3 spawn = transform.position;
         GameObject bomb = Instantiate(bombPrefab, spawn, Quaternion.identity);
+        GetComponent<Inventory>().bomb_count--;
         yield return new WaitForSeconds(2);
         Destroy(bomb);
         GameObject explosion = Instantiate(explosionPrefab, spawn, Quaternion.identity);

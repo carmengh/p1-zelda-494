@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class PullOrb : MonoBehaviour
 {
-    public Transform casterTransform;
+    public GameObject player;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("pullable"))
         {
-            Vector3 directionToPlayer = (casterTransform.position - other.transform.position).normalized;
+            Vector3 directionToPlayer = (player.transform.position - other.transform.position).normalized;
             Vector3 moveDirection = GetOneUnitDirection(directionToPlayer);
 
             Vector3 targetPosition = other.transform.position + moveDirection;
@@ -35,10 +35,10 @@ public class PullOrb : MonoBehaviour
         }
         if (other.CompareTag("enemy"))
         {
-            Vector3 directionToPlayer = (casterTransform.position - other.transform.position).normalized;
+            Vector3 directionToPlayer = (player.transform.position - other.transform.position).normalized;
             Vector3 pullDirection = GetOneUnitDirection(directionToPlayer);
             
-            Vector3 pullTargetPosition = casterTransform.position - pullDirection;
+            Vector3 pullTargetPosition = player.transform.position - pullDirection;
 
 
             Collider[] colliders = Physics.OverlapBox(pullTargetPosition, Vector3.one * 0.4f);

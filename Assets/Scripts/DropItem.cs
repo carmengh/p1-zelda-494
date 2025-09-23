@@ -33,7 +33,8 @@ public class DropItem : MonoBehaviour
 
         if (bomb != null)
         {
-            Instantiate(bomb, transform.position, transform.rotation);
+            GameObject drop_bomb = Instantiate(bomb, transform.position, transform.rotation);
+            drop_bomb.layer = 0;
             return;
         }
 
