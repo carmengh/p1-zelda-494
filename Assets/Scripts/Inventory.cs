@@ -74,6 +74,7 @@ public class Inventory : MonoBehaviour
         {
             rupee_count += 1000;
             bomb_count += 1000;
+            key_count+= 1000;
             if (!altWeapons.Contains("Bow"))
             {
                 altWeapons.Add("Bow");

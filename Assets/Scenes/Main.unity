@@ -24696,7 +24696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -67019,7 +67019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -142754,7 +142754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -148948,7 +148948,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Name
-      value: Tile_WALL
+      value: Locked_Door
       objectReference: {fileID: 0}
     - target: {fileID: 835723977876187926, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Sprite
@@ -149000,7 +149000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -184792,7 +184792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -190079,7 +190079,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -198747,7 +198747,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 233745514193235941, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Name
-      value: Tile_WALL
+      value: Locked_Door
       objectReference: {fileID: 0}
     - target: {fileID: 835723977876187926, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_Sprite
@@ -198799,7 +198799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -201291,7 +201291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -227780,7 +227780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -279786,7 +279786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -293010,7 +293010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -294399,7 +294399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -294944,7 +294944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -311461,7 +311461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -330776,7 +330776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970264131152229324, guid: 43f8c967fb1e8da4989581c35284711a, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
